@@ -1,0 +1,734 @@
+{
+  "headerFooter": {
+    "logo_bilbao_skp": "Bilbao SKP",
+    "menu": {
+      "jugar": "Jolastu",
+      "gestion": "Kudeaketa",
+      "opiniones": "Iritziak",
+      "contacto": "Kontaktua",
+      "ranking": "Sailkapena"
+    },
+    "botones": {
+      "iniciar": "Saioa hasi",
+      "cerrar": "Saioa itxi",
+      "registrar": "Harpidetu",
+      "idioma": "English"
+    },
+    "footer": {
+      "contacto": "Kontakturako informazioa",
+      "derechos": "© 2025 Eskubide guztiak erreserbatuta"
+    }
+  },
+  "index": {
+    "titulo": "Bilbao SKP",
+    "ultimaCarta": "AZKEN LETRA",
+    "descripcionUltimaCarta": "Bullying‑ari, adiskidetasun‑ari, ausardi‑ari, leialtasun‑ari, adore‑ari, garapen pertsonal‑ari, sakrifizio‑ari eta helmugara iritsi baino lehen ekitearen garrantziaz kontatzen duen istorioa.",
+    "opinionesUsuarios": "Erabiltzaileen iritziak",
+    "opiniones": {
+      "proflaura": "Istorioak bullying‑ak nola eragiten dien gazteei erakusten du eta enpatia garrantzitsua dela nabarmendu. Jokoak erabaki zailak hartzera gonbidatzen du, errealitate hau isladatuz.",
+      "carlosgamer": "Istorioak mugitu ninduen, batez ere amaierak. Espero nuke adiskideek benetako babes gehiago izatea. Erabakiek amaiera aldatzen duten moduan, esperientzia intentsuagoa egiten dute.",
+      "culturajoven": "Istorioak mugitu ninduen, gure seme‑alabei arreta jartzearen garrantzia azpimarratuz. Jokoak erabakiek bizitzari nola eragiten dioten hausnartzera gonbidatzen du."
+    }
+  },
+  "registroIndividual": {
+    "titulo": "Banakako Harpidetza",
+    "form": {
+      "nombre": "Izena",
+      "dni": "NAN",
+      "apellidos": "Abizenez",
+      "email": "Posta Elektronikoa (Erabiltzailea)",
+      "contrasena": "Pasahitza",
+      "repetirContrasena": "Errepikatu pasahitza",
+      "telefono": "Telefonoa",
+      "placeholders": {
+        "nombre": "Sartu zure izena",
+        "apellidos": "Sartu zure abizenak",
+        "dni": "Sartu zure NAN zenbakia",
+        "email": "Sartu zure posta elektronikoa",
+        "contrasena": "Sartu zure pasahitza",
+        "repetirContrasena": "Errepikatu zure pasahitza",
+        "telefono": "Sartu zure telefono zenbakia"
+      },
+      "mantenerSesion": "Saioa irekita mantendu",
+      "botonEnviar": "Bidali"
+    },
+    "mensajes": {
+      "exito": {
+        "titulo": "Arrakasta!",
+        "texto": "Banakako erabiltzaile gisa zure harpidetza behar bezala osatu da. Laster berrespen mezua jasoko duzu zure posta elektronikoan. Jarraitu mezu horretan emandako argibideak prozesua osatzeko."
+      },
+      "error": {
+        "titulo": "Errorea",
+        "texto": "Erabiltzailea harpidetu ahalegintzean arazoren bat egon da. Mesedez, egiaztatu sartutako datuak eta saiatu berriro. Arazoa jarraitzen badu, jar zaitez gurekin harremanetan laguntzarako."
+      }
+    },
+    "navegacion": {
+      "inicio": "Hasierara itzuli.",
+      "registro": "Harpidetzara itzuli."
+    },
+    "secciones": {
+      "datosAcceso": "Saio‑datuak",
+      "datosPersonales": "Datu pertsonalak"
+    }
+  },
+  "registroEleccion": {
+    "titulo": "Harpidetza motaren hautaketa",
+    "opciones": {
+      "individual": {
+        "titulo": "Banakako Harpidetza",
+        "descripcion": "Banaka harpidetu Bilbao SKParekin zure bidaia hasi eta 5 euroko prezioan."
+      },
+      "centro": {
+        "titulo": "Ikastetxeko Harpidetza",
+        "descripcion": "Ikastetxe bat harpidetu eta zure ikasleentzako kontu anitz kudeatu."
+      }
+    }
+  },
+  "registroCentro": {
+    "titulo": "Ikastetxeko Harpidetza",
+    "form": {
+      "nombreCentro": "Ikastetxearen izena",
+      "cif": "Ikastetxearen CIF",
+      "correo": "Ikastetxearen posta elektronikoa",
+      "ciudad": "Ikastetxearen hiria",
+      "numeroAlumnos": "Ikasleen kopurua",
+      "etapaEducativa": "Hezkuntza etapa",
+      "placeholders": {
+        "nombreCentro": "Sartu ikastetxearen izena",
+        "cif": "Sartu ikastetxearen CIF",
+        "correo": "Sartu ikastetxearen posta elektronikoa",
+        "ciudad": "Sartu ikastetxearen hiria",
+        "numeroAlumnos": "Sartu ikasleen kopurua",
+        "etapaEducativa": "Sartu hezkuntza etapa"
+      }
+    },
+    "mensajes": {
+      "exito": {
+        "titulo": "Arrakasta!",
+        "texto": "Ikastetxe gisa zure harpidetza behar bezala osatu da. Administratzaile batek berrikusi eta aktibatu ondoren, jakinarazpena jasoko duzu posta elektronikoan."
+      },
+      "error": {
+        "titulo": "Errorea",
+        "texto": "Ikastetxea harpidetu ahalegintzean arazoren bat egon da. Mesedez, egiaztatu sartutako datuak eta saiatu berriro. Arazoa jarraitzen badu, jar zaitez gurekin harremanetan laguntzarako."
+      }
+    },
+    "navegacion": {
+      "inicio": "Hasierara itzuli.",
+      "registro": "Harpidetzara itzuli."
+    }
+  },
+  "ranking": {
+    "titulo": "Sailkapena",
+    "nacional": "Estatuko Sailkapena",
+    "clasificaciones": {
+      "actual": "Parte‑hartzaileen sailkapen eguneratua errendimendu eta emaitzen arabera",
+      "general": "Sailkapen Orokorra",
+      "topPerformers2025": "2025eko Top Emaitzadunak",
+      "mejoresParticipantes": "Programako parte‑hartzaile onenak errendimendu metriken arabera"
+    },
+    "periodos": {
+      "mensual": "Hilekoa",
+      "anual": "Urtek",
+      "procesando": "Urteko datuak prozesatzen",
+      "proximamente": "Laster eskuragarri"
+    },
+    "metodologia": {
+      "puntuacion": "Eskorikatzeko Metodologia",
+      "rendimiento": {
+        "titulo": "Errendimendua",
+        "descripcion": "Ebaluatutako epean oinarritutako errendimendu metrika objektiboetan oinarrituta."
+      },
+      "participacion": {
+        "titulo": "Parte‑hartzea",
+        "descripcion": "Jardueretan inplikazio eta jarraitasun mailaren arabera."
+      },
+      "actualizacion": "Eskora hileko lehenengo egunean eguneratzen da"
+    },
+    "analisisRegional": {
+      "titulo": "Eskualdeko Analisia",
+      "rendimientoPorRegion": "Errendimendua Eskualdeka"
+    },
+    "proximosEventos": {
+      "titulo": "Hurrengo Ekitaldiak",
+      "entregaPremios": "Sari Banaketa",
+      "workshopRegional": "Eskualdeko Tailerra",
+      "presentacionNuevasCategorias": "Kategori Berriak Aurkeztea"
+    }
+  },
+  "organizarPartida": {
+    "menu": {
+      "perfil": "Profiloaren menu",
+      "ranking": "Sailkapena",
+      "organizar": "Jokoa Antolatu",
+      "cupones": "Txekeak lortu",
+      "cerrarSesion": "Saioa itxi",
+      "gestionUsuario": "Erabiltzaileen kudeaketa"
+    },
+    "titulo": "Jokoa Antolatu",
+    "descripcion": "Sortu partida berri bat eta gonbidatu zure lagunak jolastera",
+    "form": {
+      "tituloPartida": "Partidaren izenburua",
+      "ejemplo": "Adib.: Ostiraleko partida laguntsua",
+      "fechaHora": "Data eta ordua",
+      "seleccionaFechaHora": "Hautatu data eta ordua",
+      "duracionHoras": "Iraupena (ordu)",
+      "tipoJuego": "Joko motaren hautaketa",
+      "seleccionaTipoJuego": "Hautatu joko mota",
+      "categorias": {
+        "casual": "Kasu alaiean",
+        "principiantes": "Hasiberrientzat",
+        "intermedio": "Erdi mailan",
+        "experiencia": "Esperientziadun jokalariek",
+        "competitivo": "Lehiakorra",
+        "avanzado": "Maila aurreratua",
+        "torneo": "Txapelketa"
+      },
+      "formatoEliminatorio": "Eliminazio formatoa", 
+      "numeroMaximoJugadores": "Jokalari maximo kopurua",
+      "detalles": "Azaldu partidaren xehetasunak...",
+      "privada": "Partida pribatua (gonbidapena soilik)"
+    },
+    "acciones": {
+      "cancelar": "Utzi",
+      "crear": "Partida Sortu",
+      "misPartidas": "Nire Partidak",
+      "verTodas": "Denak ikusi"
+    },
+    "ejemplos": {
+      "torneoVerano": "Udako txapelketa",
+      "amistosa": "Laguntsu partida"
+    },
+    "estado": {
+      "jugadores": "Jokalariak",
+      "completada": "Amaituta",
+      "proxima": "Hurrengoa"
+    },
+    "consejos": {
+      "planificaTiempo": "Aurretik antolatu",
+      "detalle48h": "Sortu partida gutxienez 48 ordiz aurreratu jokalariek bat egin dezaten.",
+      "comunicaReglas": "Arauen komunikazioa",
+      "aseguraReglas": "Ziurtatu parte‑hartzaile guztiek arauak eta formatua ezagutzen dituztela.",
+      "incentivos": "Sari txikiak edo aitortzak eskaini emozio gehiago lortzeko."
+    },
+    "opcional": "Deskripzioa (aukerakoa)"
+  },
+  "menuPerfil": {
+    "titulo": "Profiloaren Menu",
+    "perfil": {
+      "titulo": "Erabiltzaile Profiloa",
+      "gestion": "Zure datu pertsonalak eta hobespenak kudeatu",
+      "nivel": "Maila",
+      "rango": "Rank-a",
+      "miembroDesde": "Kide izan zara",
+      "puntos": "Puntuak",
+      "partidas": "Partidak",
+      "victorias": "Irabaziak",
+      "ratio": "Ratio-a",
+      "sobreMi": "Niri buruz",
+      "bio": "Strategia eta lehiaketan pasionatuta nago. Txapelketetan parte hartzea eta jokalari berriekin elkartzea maite dut. Beti maila hobetu eta taktikak ikasten saiatzen."
+    },
+    "logros": {
+      "titulo": "Lortutakoak",
+      "verTodos": "Denak ikusi",
+      "items": {
+        "primeraVictoria": {
+          "titulo": "Lehen Irabazi-a",
+          "descripcion": "Zure partida lehen irabazi"
+        },
+        "organizador": {
+          "titulo": "Antolatzailea",
+          "descripcion": "5 partida antolatu"
+        },
+        "competidor": {
+          "titulo": "Lehiakaria",
+          "descripcion": "10 partida parte hartu"
+        },
+        "campeon": {
+          "titulo": "Txapelduna",
+          "descripcion": "20 partida irabazi"
+        }
+      }
+    },
+    "pestanas": {
+      "historial": "Historia",
+      "configuracion": "Ezarpenak"
+    },
+    "historial": {
+      "titulo": "Partiden Historia",
+      "victoria": "Irabazi",
+      "derrota": "Galduta",
+      "hora": "Ordua",
+      "jugadores": "jokalariak",
+      "puntosGanados": "puntuak",
+      "cargarMas": "Partida gehiago kargatu"
+    },
+    "configuracion": {
+      "titulo": "Kontu Ezarpenak",
+      "infoPersonal": "Datu Pertsonalak",
+      "nombre": "Izena osoa",
+      "usuario": "Erabiltzaile izena",
+      "email": "Posta elektronikoa",
+      "bio": "Biografia",
+      "preferencias": "Hobespenak",
+      "notificaciones": {
+        "titulo": "Posta jakinarazpenak",
+        "descripcion": "Partida eta ekitaldiei buruz jakinarazpenak jasotzea"
+      },
+      "perfilPublico": {
+        "titulo": "Profila publiko",
+        "descripcion": "Besteek zure profila ikustea baimendu"
+      },
+      "estadoOnline": {
+        "titulo": "Online egoera erakutsi",
+        "descripcion": "Besteek jakin dezaten noiz zauden konektatuta"
+      },
+      "seguridad": {
+        "titulo": "Segurtasuna",
+        "cambiarContrasena": "Pasahitza aldatu",
+        "dosPasos": "Bi faktoreko egiaztapena aktibatu"
+      },
+      "acciones": {
+        "cancelar": "Utzi",
+        "guardar": "Aldaketak gorde"
+      }
+    }
+  },
+  "jugar": {
+    "titulo": "Jolastu",
+    "historiaInteractiva": "Istorio Interaktiboa",
+    "marcos": {
+      "titulo": "Marcosen istorioa",
+      "descripcion": "Bullying‑ari eta bere ondorioei buruzko istorio interaktiboa"
+    },
+    "sinopsis": {
+      "titulo": "Sinopsia:",
+      "texto": "Marcos, 14 urteko mutila, bullying‑a jasaten du..."
+    },
+    "finales": {
+      "dosFinales": "Bi amaiera posible:",
+      "a": {
+        "titulo": "Amaiera A",
+        "texto": "Ikusi nola aurre egiten dioten Marcos eta Alexek bullying‑ari elkarrekin."
+      },
+      "b": {
+        "titulo": "Amaiera B",
+        "texto": "Istorio honen bestelako amaiera esploratu."
+      }
+    },
+    "archivo": {
+      "informacion": "Fitxategiaren informazioa:",
+      "formato": {
+        "label": "Formatua",
+        "valor": "Java (.jar)"
+      },
+      "tamano": {
+        "label": "Tamaina",
+        "valor": "24.5 MB"
+      },
+      "version": {
+        "label": "Bertsioa",
+        "valor": "1.0.0"
+      },
+      "ultimaActualizacion": {
+        "label": "Azken eguneratzea",
+        "fecha": "2025eko apirilaren 4a"
+      },
+      "descargar": "Fitxategia jaitsi (.jar)"
+    },
+    "terminos": "Fitxategia deskargatzearekin, gure baldintzak onartzen dituzu",
+    "instrucciones": {
+      "titulo": "Argibideak",
+      "pasos": [
+        "Java fitxategi konprimatua deskargatu (.zip edo .rar)",
+        "Edukiak atera WinRAR edo 7‑Zip bezalako programarekin",
+        "Ziurtatu Java instalatuta duzula",
+        "Egin klik bikoitza .jar fitxategian jokoari ekiteko"
+      ]
+    },
+    "requisitosSistema": {
+      "titulo": "Sistema eskakizunak",
+      "verifica": "Egiaztatu zure gailuak gutxieneko eskakizunak betetzen dituela",
+      "minimos": "Gutxieneko eskakizunak",
+      "recomendados": "Gomendatutako eskakizunak",
+      "detalles": {
+        "sistemaOperativo": {
+          "label": "Sistema eragilea",
+          "minimo": "Windows 10/11 (64-bit), macOS 10.14+, Linux"
+        },
+        "procesador": {
+          "label": "Prozesadorea (CPU)",
+          "minimo": "Intel Core i3‑3210 edo AMD A8‑7600",
+          "recomendado": "Intel Core i5 edo AMD Ryzen 5"
+        },
+        "ram": {
+          "label": "RAM Memoria",
+          "minimo": "4 GB",
+          "recomendado": "8 GB edo gehiago"
+        },
+        "gpu": {
+          "label": "Grafiko txartela",
+          "minimo": "Intel HD 4000 edo AMD Radeon R5",
+          "recomendado": "NVIDIA GTX 1650 edo AMD Radeon RX 570"
+        },
+        "opengl": {
+          "label": "OpenGL",
+          "minimo": "4.4 bertsioa edo gorago"
+        },
+        "espacioDisco": {
+          "label": "Disko espazioa",
+          "minimo": "1 GB + espazio gehigarria munduentzako/mods",
+          "ssd": "SSD nahikoa espazioarekin"
+        },
+        "java": {
+          "label": "Java",
+          "version": "Java 17 (launcher ofizialarekin barne)"
+        }
+      }
+    }
+  },
+  "inicioSesionIndividual": {
+    "titulo": "Banakako Saioa Hasi",
+    "form": {
+      "email": "Posta",
+      "contrasena": "Pasahitza",
+      "placeholders": {
+        "email": "adibidea@posta.com",
+        "contrasena": "Sartu zure pasahitza"
+      },
+      "botonEnviar": "BIDALI"
+    }
+  },
+  "inicioSesionCentro": {
+    "titulo": "Ikastetxeko Saioa Hasi",
+    "form": {
+      "cif": "CIF",
+      "usuarioAdmin": "Ikastetxeko administratzaile erabiltzailea",
+      "contrasena": "Pasahitza",
+      "placeholders": {
+        "cif": "Adib.: B12345678",
+        "usuarioAdmin": "Sartu zure erabiltzailea",
+        "contrasena": "Sartu zure pasahitza"
+      },
+      "botonEnviar": "BIDALI"
+    }
+  },
+  "inicioEleccion": {
+    "titulo": "Saioa Hastearen Hautaketa",
+    "subtitulo": "SAIO MOTAREN HAUTAPENA",
+    "opciones": {
+      "individual": {
+        "label": "Banakako Saioa Hasi",
+        "descripcion": "Saioa hasi nahi duten banakako erabiltzaileentzat"
+      },
+      "centro": {
+        "label": "Ikastetxeko Saioa Hasi",
+        "descripcion": "Saioa hasi nahi duten hezkuntza zentroentzat"
+      }
+    }
+  },
+  "gestion": {
+    "titulo": "Kudeaketa",
+    "perfilUsuario": {
+      "avatar": "Erabiltzaile avatara",
+      "nombre": "Carlos Rodríguez",
+      "nivel": "Maila 5",
+      "puntos": "Puntuak",
+      "partidas": "Partidak",
+      "victorias": "Irabaziak"
+    },
+    "miniRanking": {
+      "titulo": "Mini Sailkapena",
+      "jugadores": [
+        { "nombre": "Ana García", "puntos": "2850 pts" },
+        { "nombre": "Miguel López", "puntos": "2720 pts" },
+        { "nombre": "Laura Martínez", "puntos": "2580 pts" }
+      ],
+      "tuPosicion": { "puntos": "1250 pts", "label": "Zure posizioa" },
+      "verCompleto": "Sailkapen osoa ikusi"
+    },
+    "opciones": "Aukerak",
+    "modulos": {
+      "organizarPartida": {
+        "titulo": "Jokoa Antolatu",
+        "descripcion": "Antolatu partida eta gonbidatu zure lagunak"
+      },
+      "unirsePartida": {
+        "titulo": "Partidan parte hartu",
+        "descripcion": "Beste jokalariek antolatutako partidetara batu"
+      },
+      "gestionarPartidas": "Partidak kudeatu"
+    },
+    "cupones": {
+      "adquirir": {
+        "titulo": "Txekeak eskuratu",
+        "descripcion": "Txekeak eskuratu sariak lortzeko"
+      },
+      "canjear": {
+        "titulo": "Sariak trukatu",
+        "descripcion": "Txekeak erabili sari esklusiboak lortzeko"
+      },
+      "verDisponibles": "Eskuragarri dauden txekeak ikusi"
+    }
+  },
+  "cupones": {
+    "titulo": "Txekeak",
+    "subtitulo": "Puntuak saria bihurtzeko txekeak trukatu",
+    "columnas": {
+      "puntos": "Puntuak",
+      "activos": "Txeke Aktiboak",
+      "canjeados": "Txeke Trukatuta",
+      "disponibles": "Eskuragarri",
+      "filtrar": "Iragazi"
+    },
+    "items": [
+      {
+        "id": 1,
+        "titulo": "Txeke 1",
+        "descripcion": "300 puntuko deskontu bat ematen dizu.",
+        "validoHasta": "Abenduaren 31ra arte baliozkoa",
+        "tipo": "Deskontua",
+        "accion": "Txeke lortu"
+      },
+      {
+        "id": 5,
+        "titulo": "Txeke 5",
+        "descripcion": "1200 puntuko pakete esklusiboa ematen dizu.",
+        "validoHasta": "Azaroaren 30ra arte baliozkoa",
+        "tipo": "Paketea",
+        "accion": "Paketea lortu"
+      },
+      {
+        "id": 15,
+        "titulo": "Txeke 15",
+        "descripcion": "3000 puntuko pakete premium bat ematen dizu.",
+        "validoHasta": "Urriko 15ra arte baliozkoa",
+        "tipo": "Paketea",
+        "accion": "Paketea lortu"
+      }
+    ],
+    "misCupones": {
+      "titulo": "Nire Txekeak",
+      "activos": "Aktiboak",
+      "usados": "Erabilitakoak",
+      "items": [
+        {
+          "id": 15,
+          "titulo": "Txeke 15 Aktiboa",
+          "validoHasta": "Urriko 15ra arte baliozkoa",
+          "tipo": "Paketea",
+          "accion": "Txekea ikusi"
+        },
+        {
+          "id": 10,
+          "titulo": "Txeke 10 Erabilia",
+          "validoHasta": "Irailaren 30ra arte baliozkoa",
+          "restantes": null,
+          "estado": "Erabilia",
+          "canjeado": "Trukatua"
+        }
+      ]
+    },
+    "info": {
+      "titulo": "Txekeen Informazioa",
+      "pasos": [
+        { "titulo": "Urratsa 1", "descripcion": "Puntuak batu txekeak trukatzeko." },
+        { "titulo": "Urratsa 2", "descripcion": "Gustuko txekea hautatu." },
+        { "titulo": "Urratsa 3", "descripcion": "Txekea onuragatik trukatu." }
+      ],
+      "notas": [
+        "Ohar: Txekeek iraungitze-data dute.",
+        "Ohar: Txekeak ezin dira transferitu.",
+        "Ohar: Puntuak ez dira itzulgarriak.",
+        "Ohar: Ebazi txekearen xehetasunak trukatu aurretik."
+      ]
+    }
+  },
+  "contacto": {
+    "titulo": "Kontaktua",
+    "subtitulo": "Mezua bidali",
+    "form": {
+      "nombre": "Izena",
+      "correo": "Posta elektronikoa",
+      "telefono": "Telefonoa",
+      "asunto": "Gaia",
+      "mensaje": "Mezua",
+      "botonEnviar": "Mezua bidali"
+    },
+    "informacion": {
+      "titulo": "Kontakturako informazioa",
+      "direccion": {
+        "label": "Helbidea",
+        "detalle": "Poza Lizentziatuaren Kalea, 31, Abando, 48011 Bilbo"
+      },
+      "telefono": {
+        "label": "Telefonoa",
+        "detalle": "+34 94 123 123"
+      },
+      "email": {
+        "label": "Posta",
+        "detalle": "dcdigitalcraftdevelopment@gmail.com"
+      },
+      "horario": {
+        "label": "Ordutegia",
+        "detalle": "Astelehenetik Ostiralera: 8:00 - 14:00"
+      }
+    }
+  },
+  "rankingClases": {
+    "titulo": "Klaseen Sailkapena",
+    "clasificacion": "Klaseen sailkapena puntuazioaren arabera",
+    "topClases2025": "2025eko Top Klaseak",
+    "mejoresClases": "Escape Room‑eko errendimendu oneneko klaseak",
+    "reiniciar": "Sailkapena berrezarri",
+    "sinDatos": "Ez dago daturik gelarako sailkapenerako.",
+    "metrica": {
+      "aciertos": "Zuzenak",
+      "descripcionAciertos": "Puzzle bakoitzari puntuak ebazteagatik.",
+      "tiempo": "Denbora",
+      "descripcionTiempo": "Jokoa azkar bukatzeagatik irabazitako bonus.",
+      "pistas": "Pista",
+      "descripcionPistas": "Pista bakoitzagatik aplikatutako penalizazioa."
+    },
+    "formula": "Eskoratzeko Formula",
+    "info": {
+      "descripcion1": "Sailkapenak Escape Room hezitzailean errendimendu oneneko klaseak erakusten ditu.",
+      "descripcion2": "Ikasle batek partida bat bukatu ahala, bere puntuazioa gelaren totalera gehitzen da.",
+      "descripcion3": "Klaseak total puntuazioaren arabera ordenatzen dira handienetik txikienera.",
+      "reinicio": {
+        "automatico": "Sailkapena ikasturte bakoitzaren hasieran berrezartzen da.",
+        "formas": {
+          "automatico": "Automatikoa: Urtero irailaren 1ean",
+          "manual": "Eskuzkoa: Administratzaile edo arduradun batek"
+        }
+      }
+    }
+  },
+  "confirmarReinicio": {
+    "titulo": "Sailkapena Berrezartzea Egiaztatu",
+    "alerta": "Arreta!",
+    "descripcion": "Sailkapena berrezartzen ari zara",
+    "puntos": [
+      "Metatutako puntu guztiak 0‑ra itzuliko dira",
+      "Sailkapenean oraindik ez dauden klaseentzako sarrerak sortuko dira",
+      "Ezinezkoa izango da atzera egitea"
+    ],
+    "confirmacion": "Ziur zaude jarraitu nahi duzula?",
+    "acciones": { "si": "Bai, sailkapena berrezarri", "no": "Ez, utzi" }
+  },
+  "resultadoPartida": {
+    "titulo": "Partida Emaitza",
+    "exito": "Arrakasta",
+    "error": "Errorea",
+    "partidaFinalizada": "Partida Amaituta",
+    "rankingActualizado": "Emaitzak gorde dira eta sailkapena eguneratu da.",
+    "verRanking": "Sailkapena ikusi",
+    "volverInicio": "Hasierara itzuli"
+  },
+  "errorMessages": {
+    "error": "Errorea",
+    "acceso": "Sarbide Errorea",
+    "permisos": "Baimenen Errorea",
+    "verRankingNacional": "Estatuko Sailkapena ikusi"
+  },
+  "loginPage": {
+    "iniciar_sesion": "Saioa hasi",
+    "acceso_usuario": "Erabiltzaile Sarrera",
+    "iniciar_sesion_cuenta": "Zure Kontura Saioa Hasi",
+    "olvidaste_contrasena": "Pasahitza ahaztu duzu?",
+    "no_tienes_cuenta": "Ez duzu konturik?",
+    "registrarse": "Erregistratu"
+  },
+  "gestionCupones": {
+    "dashboard_cupones_titulo": "Txeke Kudeaketa",
+    "cupones_disponibles": "Eskuragarri dauden txekeak",
+    "valido_hasta": "Baliozkoa arte",
+    "no_cupones_disponibles": "Ez dago txekerik eskuragarri",
+    "cupones_programados": "Erosketen historia",
+    "comprar_cupones": "Txeke erosi",
+    "unidad": "Unitatea",
+    "cantidad": "Kopurua",
+    "precio_total": "Prezio osoa",
+    "anadir_al_carrito": "Saskira gehitu",
+    "carrito_compra": "Erosketa saskia",
+    "carrito_vacio": "Saska hutsik dago",
+    "total": "Guztira",
+    "finalizar_compra": "Erosketa amaitu",
+    "devoluciones": "Itzulketak",
+    "nombre_cupon": "Joko Txekea",
+    "descripcion_cupon": "Escape Room partida antolatzeko txekea.",
+    "comprar_cupon_descripcion": "Txeke berriak eskuratu",
+    "historial_cupon_descripcion": "Zure txeke historiara sarbidea",
+    "devolver_cupon": "Itzuli txekea"
+  },
+  "dashboard_historial": {
+    "dashboard_historial_titulo": "Erosketen Historia",
+    "compras_realizadas": "Egindako erosketak",
+    "fecha_compra": "Erosketa data",
+    "producto": "Produktua",
+    "coste_total": "Guztizko kostua",
+    "Factura": "Faktura"
+  },
+  "gestionUsuario": {
+    "dashboard_usuarios_titulo": "Erabiltzaileen Kudeaketa",
+    "usuarios_totales": "Erabiltzaile Guztiak",
+    "usuarios_activos": "Erabiltzaile Aktiboak",
+    "pendientes_suscripcion": "Harpidetza Zain",
+    "usuarios_inactivos": "Erabiltzaile Inaktiboak",
+    "buscar_usuario": "Erabiltzailea bilatu",
+    "filtrar_estado": "Egoeraren arabera iragazi",
+    "todos": "Denak",
+    "activo": "Aktiboa",
+    "pendiente": "Zain",
+    "inactivo": "Bertan behera",
+    "aplicar_filtros": "Iragaziak aplikatu",
+    "nombre": "Izena",
+    "apellidos": "Abizenak",
+    "email": "Posta elektronikoa",
+    "rol": "Rola",
+    "estado": "Egoera",
+    "fecha_registro": "Erregistro data",
+    "acciones": "Ekintzak",
+    "confirmar_eliminacion": "Ezabatzea baieztatu",
+    "mensaje_confirmacion_eliminar": "Ziur zaude erabiltzailea ezabatu nahi duzula?",
+    "cancelar": "Utzi",
+    "eliminar": "Ezabatu"
+  },
+  "gestionCentro": {
+    "gestion_centro": "Ikastetxe Kudeaketa",
+    "dashboard_centros_titulo": "Ikastetxeen Kudeaketa",
+    "centros_totales": "Ikastetxe Guztiak",
+    "centros_activos": "Ikastetxe Aktiboak",
+    "centros_inactivos": "Ikastetxe Inaktiboak",
+    "buscar_centro": "Ikastetxea bilatu",
+    "centro_escolar": "Ikastetxea",
+    "responsable": "Arduraduna"
+  },
+  "edicionUsuario": {
+    "editar_perfil_titulo": "Profila Editatu",
+    "datos_centro": "Ikastetxearen datuak",
+    "datos_personalesdos": "Datu pertsonalak",
+    "cif": "CIF",
+    "nombre_centro": "Ikastetxearen izena",
+    "ciudad": "Hiria",
+    "etapa_educativa": "Hezkuntza maila",
+    "numero_alumnos": "Ikasleen kopurua",
+    "dni": "NAN",
+    "nombre": "Izena",
+    "apellidos": "Abizenak",
+    "telefono": "Telefonoa",
+    "correo": "Posta elektronikoa",
+    "rol": "Rola",
+    "datos_suscripcion": "Harpidetza datuak",
+    "estado_suscripcion": "Harpidetza egoera",
+    "fecha_inicio": "Hasteko data",
+    "activar_suscripcion": "Harpidetza aktibatu",
+    "cancelar_suscripcion": "Harpidetza utzi",
+    "nueva_suscripcion": "Harpidetza berria",
+    "guardar_cambios": "Aldaketak gorde",
+    "cancelar": "Utzi"
+  },
+  "verificacion": {
+    "exito_true": "Zure harpidetza behar bezala erregistratu da. Orain plataforma honek eskaintzen dituen onura guztiak gozatu ahal izango dituzu. Eskerrik asko konfiantza izateagatik.",
+    "exito_false": "Dirudienez, zure harpidetza behar bezala ez da aktibatu. Mesedez, saiatu berriro edo jar zaitez gurekin harremanetan laguntzarako."
+  }
+}

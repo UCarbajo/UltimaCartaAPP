@@ -1,0 +1,678 @@
+{
+  "headerFooter": {
+    "logo_bilbao_skp": "Bilbao SKP",
+    "menu": {
+      "play": "Play",
+      "management": "Management",
+      "reviews": "Reviews",
+      "contact": "Contact",
+      "ranking": "Ranking"
+    },
+    "buttons": {
+      "logIn": "Log in",
+      "logOut": "Log out",
+      "subscribe": "Subscribe",
+      "language": "Español"
+    },
+    "footer": {
+      "contact": "Contact Information",
+      "rights": "© 2025 All rights reserved"
+    }
+  },
+  "index": {
+    "title": "Bilbao SKP",
+    "lastLetter": "THE LAST LETTER",
+    "description": "A story about bullying, friendship, bravery, loyalty, courage, personal growth, sacrifice and the importance of acting before it's too late to change fate.",
+    "userReviews": "Our Users' Reviews",
+    "reviews": {
+      "proflaura": "The story shows how bullying affects young people and highlights the importance of empathy. The gameplay allows players to make difficult decisions, reflecting this reality.",
+      "carlosgamer": "The story moved me, especially the ending. I wish there was more real support among friends. The gameplay, with decisions that affect the outcome, makes the experience more intense.",
+      "culturajoven": "The story moved me, highlighting the importance of paying attention to our children. The gameplay invites reflection on how our decisions affect life."
+    }
+  },
+  "individualRegistration": {
+    "title": "Individual Subscription",
+    "form": {
+      "name": "Name",
+      "idNumber": "ID Number",
+      "surnames": "Surnames",
+      "email": "Email Address (Username)",
+      "password": "Password",
+      "repeatPassword": "Repeat Password",
+      "phoneNumber": "Phone Number",
+      "placeholders": {
+        "name": "Enter your name",
+        "surnames": "Enter your surnames",
+        "idNumber": "Enter your ID number",
+        "email": "Enter your email address",
+        "password": "Enter your password",
+        "repeatPassword": "Repeat your password",
+        "phoneNumber": "Enter your phone number"
+      },
+      "keepSignedIn": "Keep me signed in",
+      "submitButton": "Submit"
+    },
+    "messages": {
+      "success": {
+        "title": "Success!",
+        "text": "Your subscription as an Individual user has been successfully completed. You will soon receive a confirmation message via email. Please follow the instructions in that email to complete the process."
+      },
+      "error": {
+        "title": "Error",
+        "text": "There was a problem while trying to subscribe your user. Please check the information entered and try again. If the problem persists, contact us for assistance."
+      }
+    },
+    "navigation": {
+      "home": "Return to home.",
+      "subscription": "Return to subscription."
+    },
+    "sections": {
+      "loginDetails": "Login details",
+      "personalDetails": "Personal details"
+    }
+  },
+  "subscriptionChoice": {
+    "title": "Select subscription type",
+    "options": {
+      "individual": {
+        "title": "Individual Subscription",
+        "description": "Subscribe as an individual to begin your journey with Bilbao SKP for a price of 5 euros."
+      },
+      "school": {
+        "title": "School Subscription",
+        "description": "Subscribe a school and manage multiple accounts for your students."
+      }
+    }
+  },
+  "schoolRegistration": {
+    "title": "School Subscription",
+    "form": {
+      "schoolName": "School Name",
+      "taxId": "School Tax ID (CIF)",
+      "email": "School Email",
+      "city": "School City",
+      "numberOfStudents": "Number of Students",
+      "educationalStage": "Educational Stage",
+      "placeholders": {
+        "schoolName": "Enter the name of the school",
+        "taxId": "Enter the school's tax ID",
+        "email": "Enter the school's email",
+        "city": "Enter the school's city",
+        "numberOfStudents": "Enter the number of students",
+        "educationalStage": "Enter the educational stage"
+      }
+    },
+    "messages": {
+      "success": {
+        "title": "Success!",
+        "text": "Your subscription as a School has been successfully completed. An administrator will review your subscription and once activated, you will receive a notification via email."
+      },
+      "error": {
+        "title": "Error",
+        "text": "There was a problem while trying to subscribe your School. Please check the information entered and try again. If the problem persists, contact us for assistance."
+      }
+    },
+    "navigation": {
+      "home": "Return to home.",
+      "subscription": "Return to subscription."
+    }
+  },
+  "ranking": {
+    "title": "Ranking",
+    "national": "National Ranking",
+    "classification": {
+      "current": "Current classification of participants based on performance and results",
+      "general": "General Classification",
+      "topPerformers2025": "Top Performers 2025",
+      "bestParticipants": "The best participants of the programme based on performance metrics"
+    },
+    "periods": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "processing": "Annual data processing",
+      "comingSoon": "Coming soon"
+    },
+    "methodology": {
+      "scoring": "Scoring Methodology",
+      "performance": {
+        "label": "Performance",
+        "description": "Based on objective performance metrics during the evaluated period."
+      },
+      "participation": {
+        "label": "Participation",
+        "description": "Based on the level of involvement and consistency in activities."
+      },
+      "update": "The score is updated on the first day of each month"
+    },
+    "regionalAnalysis": {
+      "label": "Regional Analysis",
+      "performanceByRegion": "Performance by Region"
+    },
+    "upcomingEvents": {
+      "label": "Upcoming Events",
+      "awardsCeremony": "Awards Ceremony",
+      "regionalWorkshop": "Regional Workshop",
+      "newCategoriesPresentation": "New Categories Presentation"
+    }
+  },
+  "organiseGame": {
+    "menu": {
+      "profile": "Profile menu",
+      "ranking": "Ranking",
+      "organise": "Organise Game",
+      "vouchers": "Get vouchers",
+      "logOut": "Log out",
+      "userManagement": "User management"
+    },
+    "title": "Organise Game",
+    "description": "Create a new game and invite your friends to play",
+    "form": {
+      "gameTitle": "Game title",
+      "example": "E.g.: Friday friendly game",
+      "dateTime": "Date and time",
+      "selectDateTime": "Select date and time",
+      "durationHours": "Duration (hours)",
+      "gameType": "Game type",
+      "selectGameType": "Select a game type",
+      "categories": {
+        "casual": "Casual",
+        "beginners": "For beginners",
+        "intermediate": "Intermediate",
+        "experienced": "Experienced players",
+        "competitive": "Competitive",
+        "advanced": "Advanced level",
+        "tournament": "Tournament"
+      },
+      "knockoutFormat": "Knockout format",
+      "maxPlayers": "Maximum number of players",
+      "details": "Add details about the game...",
+      "private": "Private game (invitation only)"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "create": "Create Game",
+      "myGames": "My Games",
+      "viewAll": "View all"
+    },
+    "examples": {
+      "summerTournament": "Summer tournament",
+      "friendlyGame": "Friendly game"
+    },
+    "status": {
+      "players": "Players",
+      "completed": "Completed",
+      "next": "Next"
+    },
+    "tips": {
+      "planAhead": "Plan ahead",
+      "advanceNotice": "Create the game at least 48 hours in advance to give players time to join.",
+      "communicateRules": "Communicate the rules",
+      "ensureRules": "Make sure all participants know the rules and format of the game.",
+      "incentives": "Incentives",
+      "excitingPrizes": "Offer small prizes or recognition to make the game more exciting."
+    },
+    "optional": "Description (optional)"
+  },
+  "profileMenu": {
+    "title": "Profile Menu",
+    "profile": {
+      "title": "User Profile",
+      "manageInfo": "Manage your personal information and preferences",
+      "level": "Level",
+      "rank": "Rank",
+      "memberSince": "Member since",
+      "points": "Points",
+      "games": "Games",
+      "victories": "Victories",
+      "ratio": "Ratio",
+      "aboutMe": "About me",
+      "bio": "Passionate about strategy and competitive games. I love participating in tournaments and meeting new players. Always looking to improve my level and learn new tactics."
+    },
+    "achievements": {
+      "title": "Achievements",
+      "viewAll": "View all",
+      "items": {
+        "firstVictory": {
+          "title": "First Victory",
+          "description": "Win your first game"
+        },
+        "organiser": {
+          "title": "Organiser",
+          "description": "Organise 5 games"
+        },
+        "competitor": {
+          "title": "Competitor",
+          "description": "Participate in 10 games"
+        },
+        "champion": {
+          "title": "Champion",
+          "description": "Win 20 games"
+        }
+      }
+    },
+    "tabs": {
+      "history": "History",
+      "settings": "Settings"
+    },
+    "history": {
+      "title": "Game History",
+      "victory": "Victory",
+      "defeat": "Defeat",
+      "time": "Time",
+      "players": "players",
+      "pointsEarned": "points",
+      "loadMore": "Load more games"
+    },
+    "settings": {
+      "title": "Account Settings",
+      "personalInfo": "Personal Information",
+      "fullName": "Full name",
+      "username": "Username",
+      "email": "Email",
+      "biography": "Biography",
+      "preferences": "Preferences",
+      "emailNotifications": {
+        "label": "Email notifications",
+        "description": "Receive notifications about games and events"
+      },
+      "publicProfile": {
+        "label": "Public profile",
+        "description": "Allow others to see your profile"
+      },
+      "onlineStatus": {
+        "label": "Show online status",
+        "description": "Show others when you are connected"
+      },
+      "security": {
+        "changePassword": "Change password",
+        "twoFactor": "Enable two-factor authentication"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "save": "Save Changes"
+      }
+    }
+  },
+  "play": {
+    "title": "Play",
+    "interactiveStory": "Interactive Story",
+    "marcosStory": {
+      "title": "Marcos's story",
+      "description": "An interactive story about bullying and its consequences"
+    },
+    "synopsis": {
+      "label": "Synopsis:",
+      "text": "Marcos, a 14-year-old boy, suffers from bullying..."
+    },
+    "endings": {
+      "label": "Two possible endings:",
+      "endingA": {
+        "title": "Ending A",
+        "text": "Discover how Marcos and Alex face bullying together."
+      },
+      "endingB": {
+        "title": "Ending B",
+        "text": "Explore an alternative outcome for this story."
+      }
+    },
+    "fileInfo": {
+      "label": "File information:",
+      "format": { "label": "Format", "value": "Java (.jar)" },
+      "size": { "label": "Size", "value": "24.5 MB" },
+      "version": { "label": "Version", "value": "1.0.0" },
+      "lastUpdate": { "label": "Last update", "date": "4th April, 2025" },
+      "download": "Download file (.jar)"
+    },
+    "terms": "By downloading this file, you accept our terms and conditions",
+    "instructions": {
+      "steps": [
+        "Download the compressed Java file (.zip or .rar)",
+        "Extract its contents with a program like WinRAR or 7-Zip",
+        "Make sure you have Java installed",
+        "Double click on the .jar file to start the game"
+      ]
+    },
+    "systemRequirements": {
+      "label": "System requirements",
+      "verify": "Verify that your equipment meets the minimum requirements before downloading",
+      "minimum": "Minimum Requirements",
+      "recommended": "Recommended Requirements",
+      "details": {
+        "os": { "label": "Operating system", "minimum": "Windows 10/11 (64-bit), macOS 10.14+, Linux" },
+        "cpu": { "label": "Processor (CPU)", "minimum": "Intel Core i3-3210 or AMD A8-7600", "recommended": "Intel Core i5 or AMD Ryzen 5" },
+        "ram": { "label": "RAM Memory", "minimum": "4 GB", "recommended": "8 GB or more" },
+        "gpu": { "label": "Graphics card", "minimum": "Intel HD 4000 or AMD Radeon R5", "recommended": "NVIDIA GTX 1650 or AMD Radeon RX 570" },
+        "opengl": { "label": "OpenGL", "minimum": "Version 4.4 or higher" },
+        "diskSpace": { "label": "Disk space", "minimum": "1 GB + additional space for worlds/mods", "ssd": "SSD with sufficient space" },
+        "java": { "label": "Java", "version": "Java 17 (included with the official launcher)" }
+      }
+    }
+  },
+  "individualLogin": {
+    "title": "Individual Login",
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "placeholders": { "email": "example@email.com", "password": "Enter your password" },
+      "submitButton": "SUBMIT"
+    }
+  },
+  "schoolLogin": {
+    "title": "School Login",
+    "form": {
+      "cif": "CIF",
+      "schoolAdminUser": "School administrator user",
+      "password": "Password",
+      "placeholders": { "cif": "E.g.: B12345678", "schoolAdminUser": "Enter your username", "password": "Enter your password" },
+      "submitButton": "SUBMIT"
+    }
+  },
+  "loginSelection": {
+    "title": "Login Selection",
+    "subtitle": "SELECT THE TYPE OF LOGIN",
+    "options": {
+      "individual": { "label": "Individual Login", "description": "For individual users who want to log in" },
+      "school": { "label": "School Login", "description": "For educational centres that want to log in" }
+    }
+  },
+  "management": {
+    "title": "Management",
+    "userProfile": {
+      "label": "User Profile",
+      "avatar": "User avatar",
+      "name": "Carlos Rodríguez",
+      "level": "Level 5",
+      "points": "Points",
+      "games": "Games",
+      "victories": "Victories"
+    },
+    "miniRanking": {
+      "title": "Mini Ranking",
+      "players": [
+        { "name": "Ana García", "points": "2850 pts" },
+        { "name": "Miguel López", "points": "2720 pts" },
+        { "name": "Laura Martínez", "points": "2580 pts" }
+      ],
+      "yourPosition": { "points": "1250 pts", "label": "Your position" },
+      "viewComplete": "View complete ranking"
+    },
+    "options": "Options",
+    "modules": {
+      "organiseGame": { "title": "Organise Game", "description": "Organise a game and invite your friends" },
+      "joinGame": { "title": "Join game", "description": "Join games organised by other players" },
+      "manageGames": "Manage games"
+    },
+    "vouchers": {
+      "acquire": { "title": "Acquire Vouchers", "description": "Acquire vouchers to redeem for prizes" },
+      "redeem": { "title": "Redeem prizes", "description": "Use your vouchers to get exclusive prizes" },
+      "viewAvailable": "View available vouchers"
+    }
+  },
+  "vouchers": {
+    "title": "Vouchers",
+    "subtitle": "Redeem your points for amazing rewards",
+    "columns": {
+      "points": "Points",
+      "active": "Active Vouchers",
+      "redeemed": "Redeemed Vouchers",
+      "available": "Available Vouchers",
+      "filter": "Filter"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "Voucher 1",
+        "description": "This voucher gives you a discount of 300 points.",
+        "validUntil": "Valid until 31st December",
+        "type": "Discount",
+        "action": "Get Voucher"
+      },
+      {
+        "id": 5,
+        "title": "Voucher 5",
+        "description": "This voucher gives you an exclusive package for 1200 points.",
+        "validUntil": "Valid until 30th November",
+        "type": "Package",
+        "action": "Get Package"
+      },
+      {
+        "id": 15,
+        "title": "Voucher 15",
+        "description": "This voucher gives you a premium package for 3000 points.",
+        "validUntil": "Valid until 15th October",
+        "type": "Package",
+        "action": "Get Package"
+      }
+    ],
+    "myVouchers": {
+      "title": "My Vouchers",
+      "active": "Active",
+      "used": "Used",
+      "items": [
+        {
+          "id": 15,
+          "title": "Voucher 15 Active",
+          "validUntil": "Valid until 15th October",
+          "type": "Package",
+          "action": "View Voucher"
+        },
+        {
+          "id": 10,
+          "title": "Voucher 10 Used",
+          "validUntil": "Valid until 30th September",
+          "remaining": null,
+          "status": "Used",
+          "redeemed": "Redeemed"
+        }
+      ]
+    },
+    "info": {
+      "title": "Information about Vouchers",
+      "steps": [
+        { "title": "Step 1", "description": "Accumulate points to redeem for vouchers." },
+        { "title": "Step 2", "description": "Select the voucher you desire." },
+        { "title": "Step 3", "description": "Redeem your voucher for benefits." }
+      ],
+      "notes": [
+        "Note: Vouchers have an expiration date.",
+        "Note: Vouchers are not transferable.",
+        "Note: Points are not refundable.",
+        "Note: Verify the voucher details before redeeming."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Send us a message",
+    "form": {
+      "fullName": "Full name",
+      "email": "Email",
+      "telephone": "Telephone",
+      "subject": "Subject",
+      "message": "Message",
+      "submitButton": "Send message"
+    },
+    "info": {
+      "title": "Contact information",
+      "address": {
+        "label": "Address",
+        "detail": "Poza Lizentziatuaren Kalea, 31, Abando, 48011 Bilbo"
+      },
+      "telephone": {
+        "label": "Telephone",
+        "detail": "+34 94 123 123"
+      },
+      "email": {
+        "label": "Email",
+        "detail": "dcdigitalcraftdevelopment@gmail.com"
+      },
+      "hours": {
+        "label": "Opening hours",
+        "detail": "Monday to Friday: 8:00 - 14:00"
+      }
+    }
+  },
+  "classRanking": {
+    "title": "Class Rankings",
+    "leaderboard": "Class leaderboard by score",
+    "topClasses2025": "Top Classes 2025",
+    "bestClasses": "The top-performing classes in the Escape Room",
+    "reset": "Reset Rankings",
+    "noData": "No ranking data available for this school.",
+    "metrics": {
+      "correctAnswers": "Correct Answers",
+      "descriptionCorrectAnswers": "Points awarded for each puzzle solved correctly.",
+      "time": "Time",
+      "descriptionTime": "Bonus for completing the game quickly.",
+      "hints": "Hints",
+      "descriptionHints": "Penalty for each hint used."
+    },
+    "formula": "Scoring Formula",
+    "info": {
+      "desc1": "The ranking shows the classes with the best performance in the educational Escape Room.",
+      "desc2": "Each time a student completes a game, their score is added to their class’s total.",
+      "desc3": "Classes are ranked from highest to lowest total score.",
+      "resetInfo": {
+        "automatic": "The ranking is reset at the beginning of each academic year.",
+        "methods": {
+          "automatic": "Automatic: On 1st September each year",
+          "manual": "Manual: By an administrator or school representative"
+        }
+      }
+    }
+  },
+  "confirmReset": {
+    "title": "Confirm Ranking Reset",
+    "alert": "Attention!",
+    "description": "You are about to reset the ranking",
+    "points": [
+      "Reset all accumulated scores to 0",
+      "Create entries for any classes not yet included in the ranking",
+      "Be irreversible"
+    ],
+    "confirmation": "Are you sure you want to continue?",
+    "actions": { "yes": "Yes, reset ranking", "no": "No, cancel" }
+  },
+  "gameResult": {
+    "title": "Game Result",
+    "success": "Success",
+    "error": "Error",
+    "gameCompleted": "Game Completed",
+    "rankingUpdated": "The results have been recorded and the ranking has been updated.",
+    "viewRanking": "View Rankings",
+    "returnHome": "Return to Home"
+  },
+  "errorMessages": {
+    "general": "Error",
+    "access": "Access Error",
+    "permissions": "Permission Error",
+    "viewNationalRanking": "View National Ranking"
+  },
+  "loginPage": {
+    "logIn": "Login",
+    "userAccess": "User Access",
+    "title": "Login to Your Account",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register"
+  },
+  "couponManagement": {
+    "dashboard": {
+      "title": "Coupon Management",
+      "available": "Available Coupons",
+      "validUntil": "Valid Until",
+      "noneAvailable": "No Coupons Available",
+      "history": "Purchase History"
+    },
+    "actions": {
+      "buy": "Buy Coupons",
+      "addToCart": "Add to Cart",
+      "completePurchase": "Complete Purchase",
+      "returns": "Returns"
+    },
+    "details": {
+      "name": "Game Coupon",
+      "description": "Coupon to organize an Escape Room game."
+    },
+    "history": {
+      "title": "Purchase History",
+      "columns": {
+        "date": "Purchase Date",
+        "product": "Product",
+        "totalCost": "Total Cost",
+        "invoice": "Invoice"
+      }
+    }
+  },
+  "userManagement": {
+    "dashboard": {
+      "title": "User Management",
+      "total": "Total Users",
+      "active": "Active Users",
+      "pending": "Pending Subscriptions",
+      "inactive": "Inactive Users"
+    },
+    "filters": {
+      "search": "Search user",
+      "byStatus": "Filter by status",
+      "options": { "all": "All", "active": "Active", "pending": "Pending", "inactive": "Canceled" },
+      "apply": "Apply filters"
+    },
+    "table": {
+      "name": "Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "registrationDate": "Registration Date",
+      "actions": "Actions"
+    },
+    "confirmation": {
+      "delete": {
+        "message": "Are you sure you want to delete this user?",
+        "yes": "Delete",
+        "no": "Cancel"
+      }
+    }
+  },
+  "schoolManagement": {
+    "title": "Schools Management",
+    "total": "Total Schools",
+    "active": "Active Schools",
+    "inactive": "Inactive Schools",
+    "search": "Search school",
+    "columns": { "school": "School", "responsible": "Responsible" }
+  },
+  "editUser": {
+    "title": "Edit Profile",
+    "form": {
+      "schoolDetails": "School Details",
+      "personalInfo": "Personal Information",
+      "cif": "Tax ID",
+      "schoolName": "School Name",
+      "city": "City",
+      "educationLevel": "Education Level",
+      "numberOfStudents": "Number of Students",
+      "nationalId": "National ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "email": "Email",
+      "role": "Role",
+      "subscriptionDetails": "Subscription Details",
+      "subscriptionStatus": "Subscription Status",
+      "startDate": "Start Date"
+    },
+    "actions": {
+      "activateSubscription": "Activate Subscription",
+      "cancelSubscription": "Cancel Subscription",
+      "newSubscription": "New Subscription",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel"
+    }
+  },
+  "verification": {
+    "success": "Your subscription has been registered successfully. Now you can enjoy all the benefits available on our platform. Thank you for trusting us.",
+    "failure": "It appears that your subscription has not been activated correctly. Please try again or contact our technical support for assistance."
+  }
+}

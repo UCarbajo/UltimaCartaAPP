@@ -1,0 +1,786 @@
+{
+  "headerFooter": {
+    "logo_bilbao_skp": "Bilbao SKP",
+    "menu": {
+      "jugar": "Jugar",
+      "gestion": "Gestión",
+      "opiniones": "Opiniones",
+      "contacto": "Contacto",
+      "ranking": "Ranking"
+    },
+    "botones": {
+      "iniciar": "Iniciar sesión",
+      "cerrar": "Cerrar sesión",
+      "registrar": "Suscribirse",
+      "idioma": "English"
+    },
+    "footer": {
+      "contacto": "Información de Contacto",
+      "derechos": "© 2025 Todos los derechos reservados"
+    }
+  },
+  "index": {
+    "titulo": "Bilbao SKP",
+    "ultimaCarta": "LA ÚLTIMA CARTA",
+    "descripcion": "Una historia sobre acoso escolar, amistad, valentía, lealtad, coraje, superación personal, sacrificio y la importancia de actuar antes de que sea tarde, para cambiar el destino.",
+    "opinionesUsuarios": "Opiniones de Nuestros Usuarios",
+    "opiniones": {
+      "proflaura": "El relato muestra cómo el acoso escolar afecta a los jóvenes y resalta la importancia de la empatía. La jugabilidad permite a los jugadores tomar decisiones difíciles, reflejando esta realidad.",
+      "carlosgamer": "La historia me conmovió, especialmente el final. Ojalá hubiera más apoyo real entre amigos. La jugabilidad, con decisiones que afectan el desenlace, hace la experiencia más intensa.",
+      "culturajoven": "La historia me conmovió, destacando la importancia de estar atentos a nuestros hijos. La jugabilidad invita a reflexionar sobre cómo nuestras decisiones afectan la vida."
+    }
+  },
+  "registroIndividual": {
+    "titulo": "Suscripción Individual",
+    "form": {
+      "nombre": "Nombre",
+      "dni": "DNI",
+      "apellidos": "Apellidos",
+      "email": "Correo Electrónico (Usuario)",
+      "contrasena": "Contraseña",
+      "repetirContrasena": "Repetir Contraseña",
+      "telefono": "Teléfono",
+      "placeholders": {
+        "nombre": "Introduce tu nombre",
+        "apellidos": "Introduce tus apellidos",
+        "dni": "Introduce tu DNI",
+        "email": "Introduce tu correo electrónico",
+        "contrasena": "Introduce tu contraseña",
+        "repetirContrasena": "Repite tu contraseña",
+        "telefono": "Introduce tu número de teléfono"
+      },
+      "mantenerSesion": "Mantener sesión iniciada",
+      "botonEnviar": "Enviar"
+    },
+    "mensajes": {
+      "exito": {
+        "titulo": "¡Éxito!",
+        "texto": "Tu suscripción como usuario Individual se ha completado correctamente. Pronto recibirás un mensaje de confirmación en tu correo electrónico. Por favor, sigue las instrucciones de ese correo para completar el proceso."
+      },
+      "error": {
+        "titulo": "Error",
+        "texto": "Ha ocurrido un problema al intentar suscribir tu usuario. Por favor, verifica los datos ingresados e intenta nuevamente. Si el problema persiste, contáctanos para recibir asistencia."
+      }
+    },
+    "navegacion": {
+      "inicio": "Volver al inicio.",
+      "registro": "Volver a la suscripción."
+    },
+    "secciones": {
+      "datosAcceso": "Datos de acceso",
+      "datosPersonales": "Datos personales"
+    }
+  },
+  "registroEleccion": {
+    "titulo": "Seleccionar tipo de suscripción",
+    "opciones": {
+      "individual": {
+        "titulo": "Suscripción Individual",
+        "descripcion": "Suscríbete como individuo para comenzar tu viaje con Bilbao SKP con un precio de 5 euros."
+      },
+      "centro": {
+        "titulo": "Suscripción Centro Escolar",
+        "descripcion": "Suscribe un centro escolar y gestiona múltiples cuentas para tus estudiantes."
+      }
+    }
+  },
+  "registroCentro": {
+    "titulo": "Suscripción Centro",
+    "form": {
+      "nombreCentro": "Nombre del Centro",
+      "cif": "CIF del Centro",
+      "correo": "Correo del Centro",
+      "ciudad": "Ciudad del Centro",
+      "numeroAlumnos": "Número de Alumnos",
+      "etapaEducativa": "Etapa Educativa",
+      "placeholders": {
+        "nombreCentro": "Introduce nombre del Centro",
+        "cif": "Introduce el CIF del Centro",
+        "correo": "Introduce el correo del Centro",
+        "ciudad": "Introduce la ciudad del Centro",
+        "numeroAlumnos": "Introduce el número de Alumnos del Centro",
+        "etapaEducativa": "Introduce la etapa educativa del Centro"
+      }
+    },
+    "mensajes": {
+      "exito": {
+        "titulo": "¡Éxito!",
+        "texto": "Tu suscripción como Centro se ha completado correctamente. Un administrador revisará tu suscripción y, una vez activada, recibirás una notificación en tu correo electrónico."
+      },
+      "error": {
+        "titulo": "Error",
+        "texto": "Ha ocurrido un problema al intentar suscribir tu Centro. Por favor, verifica los datos ingresados e intenta nuevamente. Si el problema persiste, contáctanos para recibir asistencia."
+      }
+    },
+    "navegacion": {
+      "inicio": "Volver al inicio.",
+      "registro": "Volver a la suscripción."
+    }
+  },
+  "ranking": {
+    "titulo": "Ranking",
+    "nacional": "Ranking Nacional",
+    "clasificaciones": {
+      "actual": "Clasificación actual de participantes basada en rendimiento y resultados",
+      "general": "Clasificación General",
+      "topPerformers2025": "Top Performers 2025",
+      "mejoresParticipantes": "Los mejores participantes del programa en base a métricas de rendimiento"
+    },
+    "periodos": {
+      "mensual": "Mensual",
+      "anual": "Anual",
+      "procesando": "Datos anuales en procesamiento",
+      "proximamente": "Disponibles próximamente"
+    },
+    "metodologia": {
+      "puntuacion": "Metodología de Puntuación",
+      "rendimiento": {
+        "titulo": "Rendimiento",
+        "descripcion": "Basado en métricas objetivas de desempeño durante el período evaluado."
+      },
+      "participacion": {
+        "titulo": "Participación",
+        "descripcion": "Basado en el nivel de implicación y constancia en las actividades."
+      },
+      "actualizacion": "La puntuación se actualiza el primer día de cada mes"
+    },
+    "analisisRegional": {
+      "titulo": "Análisis Regional",
+      "rendimientoPorRegion": "Rendimiento por Región"
+    },
+    "proximosEventos": {
+      "titulo": "Próximos Eventos",
+      "entregaPremios": "Entrega de Premios",
+      "workshopRegional": "Workshop Regional",
+      "presentacionNuevasCategorias": "Presentación Nuevas Categorías"
+    }
+  },
+  "organizarPartida": {
+    "menu": {
+      "perfil": "Menú del perfil",
+      "ranking": "Ranking",
+      "organizar": "Organizar Partida",
+      "cupones": "Obtener cupones",
+      "cerrarSesion": "Cerrar sesión",
+      "gestionUsuario": "Gestión de usuarios"
+    },
+    "titulo": "Organizar Partida",
+    "descripcion": "Crea una nueva partida e invita a tus amigos a jugar",
+    "form": {
+      "tituloPartida": "Título de la partida",
+      "ejemplo": "Ej: Partida amistosa viernes",
+      "fechaHora": "Fecha y hora",
+      "seleccionaFechaHora": "Selecciona fecha y hora",
+      "duracionHoras": "Duración (horas)",
+      "tipoJuego": "Tipo de juego",
+      "seleccionaTipoJuego": "Selecciona un tipo de juego",
+      "categorias": {
+        "casual": "Casual",
+        "principiantes": "Para principiantes",
+        "intermedio": "Intermedio",
+        "experiencia": "Jugadores con experiencia",
+        "competitivo": "Competitivo",
+        "avanzado": "Nivel avanzado",
+        "torneo": "Torneo"
+      },
+      "formatoEliminatorio": "Formato eliminatorio",
+      "numeroMaximoJugadores": "Número máximo de jugadores",
+      "detalles": "Añade detalles sobre la partida...",
+      "privada": "Partida privada (solo por invitación)"
+    },
+    "acciones": {
+      "cancelar": "Cancelar",
+      "crear": "Crear Partida",
+      "misPartidas": "Mis Partidas",
+      "verTodas": "Ver todas"
+    },
+    "ejemplos": {
+      "torneoVerano": "Torneo de verano",
+      "amistosa": "Partida amistosa"
+    },
+    "estado": {
+      "jugadores": "Jugadores",
+      "completada": "Completada",
+      "proxima": "Próxima"
+    },
+    "consejos": {
+      "planificaTiempo": "Planifica con tiempo",
+      "detalle48h": "Crea la partida con al menos 48 horas de antelación para dar tiempo a que se unan los jugadores.",
+      "comunicaReglas": "Comunica las reglas",
+      "aseguraReglas": "Asegúrate de que todos los participantes conocen las reglas y el formato de la partida.",
+      "incentivos": "Incentivos",
+      "premiosEmocionantes": "Ofrece pequeños premios o reconocimientos para hacer la partida más emocionante."
+    },
+    "opcional": "Descripción (opcional)"
+  },
+  "menuPerfil": {
+    "titulo": "Menú Perfil",
+    "perfil": {
+      "titulo": "Perfil de Usuario",
+      "gestion": "Gestiona tu información personal y preferencias",
+      "nivel": "Nivel",
+      "rango": "Rank",
+      "miembroDesde": "Miembro desde",
+      "puntos": "Puntos",
+      "partidas": "Partidas",
+      "victorias": "Victorias",
+      "ratio": "Ratio",
+      "sobreMi": "Sobre mí",
+      "bio": "Apasionado de los juegos de estrategia y competitivos. Me encanta participar en torneos y conocer nuevos jugadores. Siempre buscando mejorar mi nivel y aprender nuevas tácticas."
+    },
+    "logros": {
+      "titulo": "Logros",
+      "verTodos": "Ver todos",
+      "items": {
+        "primeraVictoria": {
+          "titulo": "Primer Victoria",
+          "descripcion": "Gana tu primera partida"
+        },
+        "organizador": {
+          "titulo": "Organizador",
+          "descripcion": "Organiza 5 partidas"
+        },
+        "competidor": {
+          "titulo": "Competidor",
+          "descripcion": "Participa en 10 partidas"
+        },
+        "campeon": {
+          "titulo": "Campeón",
+          "descripcion": "Gana 20 partidas"
+        }
+      }
+    },
+    "pestanas": {
+      "historial": "Historial",
+      "configuracion": "Configuración"
+    },
+    "historial": {
+      "titulo": "Historial de Partidas",
+      "victoria": "Victoria",
+      "derrota": "Derrota",
+      "hora": "Hora",
+      "jugadores": "jugadores",
+      "puntosGanados": "puntos",
+      "cargarMas": "Cargar más partidas"
+    },
+    "configuracion": {
+      "titulo": "Configuración de la Cuenta",
+      "infoPersonal": "Información Personal",
+      "nombre": "Nombre completo",
+      "usuario": "Nombre de usuario",
+      "email": "Correo electrónico",
+      "bio": "Biografía",
+      "preferencias": "Preferencias",
+      "notificaciones": {
+        "titulo": "Notificaciones por correo",
+        "descripcion": "Recibir notificaciones sobre partidas y eventos"
+      },
+      "perfilPublico": {
+        "titulo": "Perfil público",
+        "descripcion": "Permitir que otros vean tu perfil"
+      },
+      "estadoOnline": {
+        "titulo": "Mostrar estado online",
+        "descripcion": "Mostrar a otros cuando estás conectado"
+      },
+      "seguridad": {
+        "titulo": "Seguridad",
+        "cambiarContrasena": "Cambiar contraseña",
+        "dosPasos": "Activar autenticación en dos pasos"
+      },
+      "acciones": {
+        "cancelar": "Cancelar",
+        "guardar": "Guardar Cambios"
+      }
+    }
+  },
+  "jugar": {
+    "titulo": "Jugar",
+    "historiaInteractiva": "Historia Interactiva",
+    "marcos": {
+      "titulo": "La historia de Marcos",
+      "descripcion": "Una historia interactiva sobre el acoso escolar y sus consecuencias"
+    },
+    "sinopsis": {
+      "titulo": "Sinopsis:",
+      "texto": "Marcos, un chico de 14 años, sufre acoso escolar..."
+    },
+    "finales": {
+      "dosFinales": "Dos finales posibles:",
+      "a": {
+        "titulo": "Final A",
+        "texto": "Descubre cómo Marcos y Alex enfrentan el acoso escolar juntos."
+      },
+      "b": {
+        "titulo": "Final B",
+        "texto": "Explora un desenlace alternativo para esta historia."
+      }
+    },
+    "archivo": {
+      "informacion": "Información del archivo:",
+      "formato": {
+        "label": "Formato",
+        "valor": "Java (.jar)"
+      },
+      "tamano": {
+        "label": "Tamaño",
+        "valor": "24.5 MB"
+      },
+      "version": {
+        "label": "Versión",
+        "valor": "1.0.0"
+      },
+      "ultimaActualizacion": {
+        "label": "Última actualización",
+        "fecha": "4 de abril, 2025"
+      },
+      "descargar": "Descargar archivo (.jar)"
+    },
+    "terminos": "Al descargar este archivo, aceptas nuestros términos y condiciones",
+    "instrucciones": {
+      "titulo": "Instrucciones",
+      "pasos": [
+        "Descarga el archivo Java comprimido (.zip o .rar)",
+        "Extrae su contenido con un programa como WinRAR o 7-Zip",
+        "Asegúrate de tener Java instalado",
+        "Haz doble clic en el archivo .jar para iniciar el juego"
+      ]
+    },
+    "requisitosSistema": {
+      "titulo": "Requisitos del sistema",
+      "verifica": "Verifica que tu equipo cumple con los requisitos mínimos antes de descargar",
+      "minimos": "Requisitos Mínimos",
+      "recomendados": "Requisitos Recomendados",
+      "detalles": {
+        "sistemaOperativo": {
+          "label": "Sistema operativo",
+          "minimo": "Windows 10/11 (64-bit), macOS 10.14+, Linux"
+        },
+        "procesador": {
+          "label": "Procesador (CPU)",
+          "minimo": "Intel Core i3-3210 o AMD A8-7600",
+          "recomendado": "Intel Core i5 o AMD Ryzen 5"
+        },
+        "ram": {
+          "label": "Memoria RAM",
+          "minimo": "4 GB",
+          "recomendado": "8 GB o más"
+        },
+        "gpu": {
+          "label": "Tarjeta gráfica",
+          "minimo": "Intel HD 4000 o AMD Radeon R5",
+          "recomendado": "NVIDIA GTX 1650 o AMD Radeon RX 570"
+        },
+        "opengl": {
+          "label": "OpenGL",
+          "minimo": "Versión 4.4 o superior"
+        },
+        "espacioDisco": {
+          "label": "Espacio en disco",
+          "minimo": "1 GB + espacio adicional para mundos/mods",
+          "ssd": "SSD con espacio suficiente"
+        },
+        "java": {
+          "label": "Java",
+          "version": "Java 17 (incluido con el launcher oficial)"
+        }
+      }
+    }
+  },
+  "inicioSesionIndividual": {
+    "titulo": "Inicio Sesión Individual",
+    "form": {
+      "email": "Email",
+      "contrasena": "Contraseña",
+      "placeholders": {
+        "email": "ejemplo@correo.com",
+        "contrasena": "Introduce tu contraseña"
+      },
+      "botonEnviar": "ENVIAR"
+    }
+  },
+  "inicioSesionCentro": {
+    "titulo": "Inicio Sesión Centro",
+    "form": {
+      "cif": "CIF",
+      "usuarioAdmin": "Usuario administrador del centro",
+      "contrasena": "Contraseña",
+      "placeholders": {
+        "cif": "Ej: B12345678",
+        "usuarioAdmin": "Introduce tu nombre de usuario",
+        "contrasena": "Introduce tu contraseña"
+      },
+      "botonEnviar": "ENVIAR"
+    }
+  },
+  "inicioEleccion": {
+    "titulo": "Selección Inicio",
+    "subtitulo": "SELECCIONA EL TIPO DE INICIO DE SESIÓN",
+    "opciones": {
+      "individual": {
+        "label": "Inicio Individual",
+        "descripcion": "Para usuarios individuales que desean iniciar sesión"
+      },
+      "centro": {
+        "label": "Inicio de Centro Escolar",
+        "descripcion": "Para centros educativos que desean iniciar sesión"
+      }
+    }
+  },
+  "gestion": {
+    "titulo": "Gestión",
+    "perfilUsuario": {
+      "avatar": "Avatar de usuario",
+      "nombre": "Carlos Rodríguez",
+      "nivel": "Nivel 5",
+      "puntos": "Puntos",
+      "partidas": "Partidas",
+      "victorias": "Victorias"
+    },
+    "miniRanking": {
+      "titulo": "Mini Ranking",
+      "jugadores": [
+        { "nombre": "Ana García", "puntos": "2850 pts" },
+        { "nombre": "Miguel López", "puntos": "2720 pts" },
+        { "nombre": "Laura Martínez", "puntos": "2580 pts" }
+      ],
+      "tuPosicion": {
+        "puntos": "1250 pts",
+        "label": "Tu posición"
+      },
+      "verCompleto": "Ver ranking completo"
+    },
+    "opciones": "Opciones",
+    "modulos": {
+      "organizarPartida": {
+        "titulo": "Organizar Partida",
+        "descripcion": "Organiza un juego e invita a tus amigos"
+      },
+      "unirsePartida": {
+        "titulo": "Unirse a partida",
+        "descripcion": "Únete a partidas organizadas por otros jugadores"
+      },
+      "gestionarPartidas": "Gestionar partidas"
+    },
+    "cupones": {
+      "adquirir": {
+        "titulo": "Adquirir Cupones",
+        "descripcion": "Adquiere cupones para canjear por premios"
+      },
+      "canjear": {
+        "titulo": "Canjear premios",
+        "descripcion": "Usa tus cupones para obtener premios exclusivos"
+      },
+      "verDisponibles": "Ver cupones disponibles"
+    }
+  },
+  "cupones": {
+    "titulo": "Cupones",
+    "subtitulo": "Canjea tus puntos por increíbles recompensas",
+    "columnas": {
+      "puntos": "Puntos",
+      "activos": "Cupones Activos",
+      "canjeados": "Cupones Canjeados",
+      "disponibles": "Cupones Disponibles",
+      "filtrar": "Filtrar"
+    },
+    "items": [
+      {
+        "id": 1,
+        "titulo": "Cupón 1",
+        "descripcion": "Este cupón te da un descuento de 300 puntos.",
+        "validoHasta": "31 de diciembre",
+        "tipo": "Descuento",
+        "accion": "Obtener Cupón"
+      },
+      {
+        "id": 5,
+        "titulo": "Cupón 5",
+        "descripcion": "Este cupón te da un paquete exclusivo por 1200 puntos.",
+        "validoHasta": "30 de noviembre",
+        "tipo": "Paquete",
+        "accion": "Obtener Paquete"
+      },
+      {
+        "id": 15,
+        "titulo": "Cupón 15",
+        "descripcion": "Este cupón te da un paquete premium por 3000 puntos.",
+        "validoHasta": "15 de octubre",
+        "tipo": "Paquete",
+        "accion": "Obtener Paquete"
+      }
+    ],
+    "misCupones": {
+      "titulo": "Mis Cupones",
+      "activos": "Activos",
+      "usados": "Usados",
+      "items": [
+        {
+          "id": 15,
+          "titulo": "Cupón 15 Activo",
+          "validoHasta": "15 de octubre",
+          "tipo": "Paquete",
+          "accion": "Ver Cupón"
+        },
+        {
+          "id": 10,
+          "titulo": "Cupón 10 Usado",
+          "validoHasta": "30 de septiembre",
+          "restantes": null,
+          "estado": "Usado",
+          "canjeado": "Canjeado"
+        }
+      ]
+    },
+    "info": {
+      "titulo": "Información sobre Cupones",
+      "pasos": [
+        {
+          "titulo": "Paso 1",
+          "descripcion": "Acumula puntos para canjear por cupones."
+        },
+        {
+          "titulo": "Paso 2",
+          "descripcion": "Selecciona el cupón que desees."
+        },
+        {
+          "titulo": "Paso 3",
+          "descripcion": "Canjea tu cupón por los beneficios."
+        }
+      ],
+      "notas": [
+        "Nota: Los cupones tienen fecha de expiración.",
+        "Nota: Los cupones no son transferibles.",
+        "Nota: Los puntos no son reembolsables.",
+        "Nota: Verifica los detalles del cupón antes de canjear."
+      ]
+    }
+  },
+  "contacto": {
+    "titulo": "Contacto",
+    "subtitulo": "Envíanos un mensaje",
+    "form": {
+      "nombre": "Nombre completo",
+      "correo": "Correo electrónico",
+      "telefono": "Teléfono",
+      "asunto": "Asunto",
+      "mensaje": "Mensaje",
+      "botonEnviar": "Enviar mensaje"
+    },
+    "informacion": {
+      "titulo": "Información de contacto",
+      "direccion": {
+        "label": "Dirección",
+        "detalle": "Poza Lizentziatuaren Kalea, 31, Abando, 48011 Bilbo"
+      },
+      "telefono": {
+        "label": "Teléfono",
+        "detalle": "+34 94 123 123"
+      },
+      "email": {
+        "label": "Email",
+        "detalle": "dcdigitalcraftdevelopment@gmail.com"
+      },
+      "horario": {
+        "label": "Horario",
+        "detalle": "Lunes a Viernes: 8:00 - 14:00"
+      }
+    }
+  },
+  "cuponesGeneral": {
+    "tag": "Cupón General",
+    "escapeRoom": {
+      "titulo": "Escape Room Descuento",
+      "precio": "500 puntos",
+      "descripcion": "Cupón de descuento para Escape Room. Obtén un 20% de descuento en tu próxima visita.",
+      "validez": "Válido hasta el 31 de diciembre, 2025",
+      "accion": "Añadir al carrito"
+    },
+    "micupon": {
+      "id": 15,
+      "usadoEn": "Usado el 15 de septiembre, 2025"
+    }
+  },
+  "carrito": {
+    "titulo": "Carrito de Compra",
+    "vacio": "Tu carrito está vacío",
+    "total": "Total",
+    "finalizar": "Finalizar Compra"
+  },
+  "rankingClases": {
+    "titulo": "Ranking de Clases",
+    "clasificacion": "Clasificación de clases por puntuación",
+    "topClases2025": "Top Clases 2025",
+    "mejoresClases": "Las clases con mejor rendimiento en el Escape Room",
+    "reiniciar": "Reiniciar Ranking",
+    "sinDatos": "No hay datos de ranking disponibles para este centro.",
+    "metrica": {
+      "aciertos": "Aciertos",
+      "descripcionAciertos": "Puntos por cada acertijo resuelto correctamente.",
+      "tiempo": "Tiempo",
+      "descripcionTiempo": "Bonificación por completar el juego rápidamente.",
+      "pistas": "Pistas",
+      "descripcionPistas": "Penalización por cada pista utilizada."
+    },
+    "formula": "Fórmula de puntuación",
+    "info": {
+      "descripcion1": "El ranking muestra las clases con mejor rendimiento en el Escape Room educativo.",
+      "descripcion2": "Cada vez que un alumno completa una partida, su puntuación se suma al total de su clase.",
+      "descripcion3": "Las clases se ordenan de mayor a menor puntuación total.",
+      "reinicio": {
+        "automatico": "El ranking se reinicia al inicio de cada curso escolar.",
+        "formas": {
+          "automatico": "Automático: El 1 de septiembre de cada año",
+          "manual": "Manual: Por un administrador o responsable de centro"
+        }
+      }
+    }
+  },
+  "confirmarReinicio": {
+    "titulo": "Confirmar Reinicio de Ranking",
+    "alerta": "¡Atención!",
+    "descripcion": "Estás a punto de reiniciar el ranking",
+    "puntos": [
+      "Establecerá a 0 todas las puntuaciones acumuladas",
+      "Creará entradas para las clases que no existan en el ranking",
+      "No se puede deshacer"
+    ],
+    "confirmacion": "¿Estás seguro de que deseas continuar?",
+    "acciones": {
+      "si": "Sí, reiniciar ranking",
+      "no": "No, cancelar"
+    }
+  },
+  "resultadoPartida": {
+    "titulo": "Resultado de Partida",
+    "exito": "Éxito",
+    "error": "Error",
+    "partidaFinalizada": "Partida Finalizada",
+    "rankingActualizado": "Los resultados han sido registrados y el ranking ha sido actualizado.",
+    "verRanking": "Ver Ranking",
+    "volverInicio": "Volver al Inicio"
+  },
+  "errorMessages": {
+    "error": "Error",
+    "acceso": "Error de Acceso",
+    "permisos": "Error de Permisos",
+    "verRankingNacional": "Ver Ranking Nacional"
+  },
+  "loginPage": {
+    "iniciarSesion": "Iniciar Sesión",
+    "accesoUsuario": "Acceso de Usuario",
+    "titulo": "Iniciar Sesión en tu Cuenta",
+    "olvidaste": "¿Olvidaste tu contraseña?",
+    "noCuenta": "¿No tienes una cuenta?",
+    "registrarse": "Registrarse"
+  },
+  "gestionCupones": {
+    "dashboard": {
+      "titulo": "Gestión de Cupones",
+      "disponibles": "Cupones disponibles",
+      "validoHasta": "Válido hasta",
+      "sinDisponibles": "No hay cupones disponibles",
+      "programados": "Historial de compras"
+    },
+    "acciones": {
+      "comprar": "Comprar cupones",
+      "anadirAlCarrito": "Añadir al carrito",
+      "finalizarCompra": "Finalizar compra",
+      "devoluciones": "Devoluciones"
+    },
+    "detalle": {
+      "nombre": "Cupon de juego",
+      "descripcion": "Cupon para poder organizar una partida de Escape Room."
+    },
+    "historial": {
+      "titulo": "Historial de Compras",
+      "columnas": {
+        "fecha": "Fecha de compra",
+        "producto": "Producto",
+        "coste": "Coste Total",
+        "factura": "Factura"
+      }
+    }
+  },
+  "gestionUsuario": {
+    "dashboard": {
+      "titulo": "Gestión de Usuarios",
+      "totales": "Usuarios Totales",
+      "activos": "Usuarios Activos",
+      "pendientesSuscripcion": "Suscripciones Pendientes",
+      "inactivos": "Usuarios Inactivos"
+    },
+    "filtros": {
+      "buscar": "Buscar usuario",
+      "estado": "Filtrar por estado",
+      "opciones": {
+        "todos": "Todos",
+        "activo": "Activo",
+        "pendiente": "Pendiente",
+        "inactivo": "Cancelada"
+      },
+      "aplicar": "Aplicar filtros"
+    },
+    "tabla": {
+      "nombre": "Nombre",
+      "apellidos": "Apellidos",
+      "email": "Correo electrónico",
+      "rol": "Rol",
+      "estado": "Estado",
+      "fechaRegistro": "Fecha de registro",
+      "acciones": "Acciones"
+    },
+    "confirmacion": {
+      "eliminar": {
+        "mensaje": "¿Estás seguro de que deseas eliminar este usuario?",
+        "si": "Eliminar",
+        "no": "Cancelar"
+      }
+    }
+  },
+  "gestionCentro": {
+    "titulo": "Gestión de Centros Escolares",
+    "totales": "Centros Escolares Totales",
+    "activos": "Centros Activos",
+    "inactivos": "Centros Inactivos",
+    "buscar": "Buscar centro escolar",
+    "columnas": {
+      "centro": "Centro Escolar",
+      "responsable": "Responsable"
+    }
+  },
+  "edicionUsuario": {
+    "titulo": "Editar perfil",
+    "form": {
+      "datosCentro": "Datos del centro",
+      "datosPersonales": "Datos personales",
+      "cif": "CIF",
+      "nombreCentro": "Nombre del centro",
+      "ciudad": "Ciudad",
+      "etapaEducativa": "Etapa educativa",
+      "numeroAlumnos": "Número de alumnos",
+      "dni": "DNI",
+      "nombre": "Nombre",
+      "apellidos": "Apellidos",
+      "telefono": "Teléfono",
+      "email": "Correo electrónico",
+      "rol": "Rol",
+      "suscripcion": {
+        "datos": "Datos de suscripción",
+        "estado": "Estado de suscripción",
+        "fechaInicio": "Fecha de inicio"
+      }
+    },
+    "acciones": {
+      "activarSuscripcion": "Activar suscripción",
+      "cancelarSuscripcion": "Cancelar suscripción",
+      "nuevaSuscripcion": "Nueva suscripción",
+      "guardarCambios": "Guardar cambios",
+      "cancelar": "Cancelar"
+    }
+  },
+  "verificacion": {
+    "exitoTrue": "Tu suscripción se ha registrado correctamente. Ahora ya puedes disfrutar de todos los beneficios disponibles en nuestra plataforma. Gracias por confiar en nosotros.",
+    "exitoFalse": "Parece que tu suscripción no se ha activado correctamente. Por favor, inténtalo nuevamente o contacta a nuestro soporte técnico para recibir ayuda."
+  }
+}
