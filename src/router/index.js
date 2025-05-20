@@ -6,11 +6,13 @@ const routes = [
     path: "/",
     name: "Home",
     component: IndexView,
+    meta: { headerStyle: false },
   },
   {
     path: "/jugar",
     name: "Jugar",
     component: JuegoView,
+    meta: { headerStyle: true },
   },
 ];
 
