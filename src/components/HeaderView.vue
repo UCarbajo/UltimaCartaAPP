@@ -57,9 +57,9 @@ useDynamicHeaderStyle();
               <a href="ranking">{{ $t("headerFooter.menu.ranking") }}</a>
             </li>
             <li>
-              <a href="inicio#opinions">{{
+              <RouterLink to="/#opinions">{{
                 $t("headerFooter.menu.opiniones")
-              }}</a>
+              }}</RouterLink>
             </li>
             <li>
               <a href="contacto">{{ $t("headerFooter.menu.contacto") }}</a>
@@ -76,14 +76,14 @@ useDynamicHeaderStyle();
           </template>
           <template v-else>
             <button class="btn-primary">
-              <a href="inicioSesion">{{
+              <RouterLink to="/iniciarSesion">{{
                 $t("headerFooter.botones.iniciar")
-              }}</a>
+              }}</RouterLink>
             </button>
             <button class="btn-secondary">
-              <a href="registroEleccion">{{
+              <RouterLink to="/registro">{{
                 $t("headerFooter.botones.registrar")
-              }}</a>
+              }}</RouterLink>
             </button>
           </template>
           <button class="btn-tertiary">
