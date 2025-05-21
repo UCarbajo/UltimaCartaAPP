@@ -1,6 +1,30 @@
 <script setup>
-import { RouterLink } from "vue-router";
-import "./css/HeaderStyle.css";
+import { RouterLink, useRoute } from "vue-router";
+import { watchEffect } from "vue";
+
+const route = useRoute();
+
+// Función para cargar y descargar CSS dinámicamente
+function useDynamicHeaderStyle() {
+  let styleEl = null;
+  watchEffect(() => {
+    // Elimina el anterior si existe
+    if (styleEl) {
+      document.head.removeChild(styleEl);
+      styleEl = null;
+    }
+    // Decide qué CSS cargar según el meta
+    const cssFile = route.meta.headerStyle
+      ? "/src/components/css/HeaderStyle2.css"
+      : "/src/components/css/HeaderStyle.css";
+    styleEl = document.createElement("link");
+    styleEl.rel = "stylesheet";
+    styleEl.href = cssFile;
+    document.head.appendChild(styleEl);
+  });
+}
+
+useDynamicHeaderStyle();
 </script>
 <!-- Header Section -->
 <template>
@@ -33,9 +57,9 @@ import "./css/HeaderStyle.css";
               <a href="ranking">{{ $t("headerFooter.menu.ranking") }}</a>
             </li>
             <li>
-              <a href="inicio#opinions">{{
+              <RouterLink to="/#opinions">{{
                 $t("headerFooter.menu.opiniones")
-              }}</a>
+              }}</RouterLink>
             </li>
             <li>
               <a href="contacto">{{ $t("headerFooter.menu.contacto") }}</a>
@@ -52,14 +76,14 @@ import "./css/HeaderStyle.css";
           </template>
           <template v-else>
             <button class="btn-primary">
-              <a href="inicioSesion">{{
+              <RouterLink to="/iniciarSesion">{{
                 $t("headerFooter.botones.iniciar")
-              }}</a>
+              }}</RouterLink>
             </button>
             <button class="btn-secondary">
-              <a href="registroEleccion">{{
+              <RouterLink to="/registro">{{
                 $t("headerFooter.botones.registrar")
-              }}</a>
+              }}</RouterLink>
             </button>
           </template>
           <button class="btn-tertiary">

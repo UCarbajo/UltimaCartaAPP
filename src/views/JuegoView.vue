@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import "../components/css/HeaderStyle2.css";
 const activeTab = ref("minimos");
 </script>
 <template>
@@ -12,40 +11,44 @@ const activeTab = ref("minimos");
             <div class="card-header">
               <div class="card-badge">
                 <span class="icon icon-file"></span>
-                <span>{{ $t("historia_interactiva") }}</span>
+                <span>{{ $t("jugar.historiaInteractiva") }}</span>
               </div>
               <h2 class="card-title">
-                {{ $t("historia_marcos") }}
+                {{ $t("jugar.marcos.titulo") }}
               </h2>
               <p class="card-description">
-                {{ $t("descripcion_historia") }}
+                {{ $t("jugar.marcos.descripcion") }}
               </p>
             </div>
             <div class="card-content">
               <div class="section">
                 <h3 class="section-title">
-                  {{ $t("sinopsis") }}
+                  {{ $t("jugar.sinopsis.titulo") }}
                 </h3>
                 <p class="section-content">
-                  {{ $t("sinopsis_texto") }}
+                  {{ $t("jugar.sinopsis.texto") }}
                 </p>
               </div>
 
               <div style="margin-bottom: 1.5rem">
                 <h3 class="section-title" style="margin-bottom: 0.75rem">
-                  {{ $t("dos_finales") }}
+                  {{ $t("jugar.finales.dosFinales") }}
                 </h3>
                 <div class="endings-grid">
                   <div class="ending-card">
-                    <span class="badge badge-green">{{ $t("final_a") }}</span>
+                    <span class="badge badge-green">{{
+                      $t("jugar.finales.a.titulo")
+                    }}</span>
                     <p class="section-content">
-                      {{ $t("final_a_texto") }}
+                      {{ $t("jugar.finales.a.texto") }}
                     </p>
                   </div>
                   <div class="ending-card">
-                    <span class="badge badge-amber">{{ $t("final_b") }}</span>
+                    <span class="badge badge-amber">{{
+                      $t("jugar.finales.b.titulo")
+                    }}</span>
                     <p class="section-content">
-                      {{ $t("final_b_texto") }}
+                      {{ $t("jugar.finales.b.texto") }}
                     </p>
                   </div>
                 </div>
@@ -53,26 +56,36 @@ const activeTab = ref("minimos");
 
               <div class="section">
                 <h3 class="section-title">
-                  {{ $t("informacion_archivo") }}
+                  {{ $t("jugar.archivo.informacion") }}
                 </h3>
                 <ul class="info-list">
                   <li>
-                    <span class="info-label">{{ $t("formato") }}:</span>
-                    <span>{{ $t("formato_jar") }}</span>
-                  </li>
-                  <li>
-                    <span class="info-label">{{ $t("tamano") }}:</span>
-                    <span>{{ $t("tamano_valor") }}</span>
-                  </li>
-                  <li>
-                    <span class="info-label">{{ $t("version") }}:</span>
-                    <span>{{ $t("version_valor") }}</span>
+                    <span class="info-label"
+                      >{{ $t("jugar.archivo.formato.label") }}:</span
+                    >
+                    <span>{{ $t("jugar.archivo.formato.valor") }}</span>
                   </li>
                   <li>
                     <span class="info-label"
-                      >{{ $t("ultima_actualizacion") }}:</span
+                      >{{ $t("jugar.archivo.tamano.label") }}:</span
                     >
-                    <span>{{ $t("fecha_actualizacion") }}</span>
+                    <span>{{ $t("jugar.archivo.tamano.valor") }}</span>
+                  </li>
+                  <li>
+                    <span class="info-label"
+                      >{{ $t("jugar.archivo.version.label") }}:</span
+                    >
+                    <span>{{ $t("jugar.archivo.version.valor") }}</span>
+                  </li>
+                  <li>
+                    <span class="info-label"
+                      >{{
+                        $t("jugar.archivo.ultimaActualizacion.label")
+                      }}:</span
+                    >
+                    <span>{{
+                      $t("jugar.archivo.ultimaActualizacion.fecha")
+                    }}</span>
                   </li>
                 </ul>
               </div>
@@ -80,10 +93,10 @@ const activeTab = ref("minimos");
             <div class="card-footer">
               <a href="descargas/laUltimaCarta.jar" class="button">
                 <span class="icon icon-download" style="color: white"></span>
-                {{ $t("descargar_archivo") }}
+                {{ $t("jugar.archivo.descargar") }}
               </a>
               <p class="text-center text-sm text-muted mt-4">
-                {{ $t("aceptas_terminos") }}
+                {{ $t("jugar.terminos") }}
               </p>
             </div>
           </div>
@@ -91,28 +104,28 @@ const activeTab = ref("minimos");
           <div class="card">
             <div class="card-header" style="padding: 1rem 1.5rem">
               <h3 class="card-title" style="font-size: 1.125rem">
-                {{ $t("instrucciones") }}
+                {{ $t("jugar.instrucciones.titulo") }}
               </h3>
             </div>
             <div class="card-content">
               <div class="instruction-step">
                 <p>
-                  {{ $t("paso_1") }}
+                  {{ $t("jugar.instrucciones.pasos.0") }}
                 </p>
               </div>
               <div class="instruction-step">
                 <p>
-                  {{ $t("paso_2") }}
+                  {{ $t("jugar.instrucciones.pasos.1") }}
                 </p>
               </div>
               <div class="instruction-step">
                 <p>
-                  {{ $t("paso_3") }}
+                  {{ $t("jugar.instrucciones.pasos.2") }}
                 </p>
               </div>
               <div class="instruction-step">
                 <p>
-                  {{ $t("paso_4") }}
+                  {{ $t("jugar.instrucciones.pasos.3") }}
                 </p>
               </div>
             </div>
@@ -127,11 +140,11 @@ const activeTab = ref("minimos");
                 class="card-title"
                 style="margin-bottom: 0; font-size: 1.25rem"
               >
-                {{ $t("requisitos_sistema") }}
+                {{ $t("jugar.requisitosSistema.titulo") }}
               </h3>
             </div>
             <p class="card-description">
-              {{ $t("verifica_requisitos") }}
+              {{ $t("jugar.requisitosSistema.verifica") }}
             </p>
           </div>
           <div class="card-content">
@@ -142,114 +155,231 @@ const activeTab = ref("minimos");
                   :class="{ active: activeTab === 'minimos' }"
                   @click="activeTab = 'minimos'"
                 >
-                  {{ $t("requisitos_minimos") }}
+                  {{ $t("jugar.requisitosSistema.minimos") }}
                 </button>
                 <button
                   class="tab-trigger"
                   :class="{ active: activeTab === 'recomendados' }"
                   @click="activeTab = 'recomendados'"
                 >
-                  {{ $t("requisitos_recomendados") }}
+                  {{ $t("jugar.requisitosSistema.recomendados") }}
                 </button>
               </div>
 
-              <div v-show="activeTab === 'minimos'" class="tab-content active">
+              <div
+                v-show="activeTab === 'minimos'"
+                :class="['tab-content', { active: activeTab === 'minimos' }]"
+              >
                 <table>
                   <thead>
                     <tr>
-                      <th class="w-1-3">{{ $t("requisito") }}</th>
-                      <th>{{ $t("especificacion") }}</th>
+                      <th class="w-1-3">
+                        {{ $t("jugar.requisitosSistema.requisito") }}
+                      </th>
+                      <th>
+                        {{ $t("jugar.requisitosSistema.especificacion") }}
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("sistema_operativo") }}
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.sistemaOperativo.label"
+                          )
+                        }}
                       </td>
-                      <td>{{ $t("os_minimo") }}</td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.sistemaOperativo.minimo"
+                          )
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("procesador") }}
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.procesador.label"
+                          )
+                        }}
                       </td>
-                      <td>{{ $t("cpu_minimo") }}</td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.procesador.minimo"
+                          )
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("memoria_ram") }}
+                        {{ $t("jugar.requisitosSistema.detalles.ram.label") }}
                       </td>
-                      <td>{{ $t("ram_4gb") }}</td>
+                      <td>
+                        {{ $t("jugar.requisitosSistema.detalles.ram.minimo") }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("tarjeta_grafica") }}
+                        {{ $t("jugar.requisitosSistema.detalles.gpu.label") }}
                       </td>
-                      <td>{{ $t("intel_amd_r5") }}</td>
-                    </tr>
-                    <tr>
-                      <td class="font-medium">{{ $t("opengl") }}</td>
-                      <td>{{ $t("opengl_4_4") }}</td>
+                      <td>
+                        {{ $t("jugar.requisitosSistema.detalles.gpu.minimo") }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("espacio_disco") }}
+                        {{
+                          $t("jugar.requisitosSistema.detalles.opengl.label")
+                        }}
                       </td>
-                      <td>{{ $t("espacio_minimo") }}</td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.opengl.minimo")
+                        }}
+                      </td>
                     </tr>
                     <tr>
-                      <td class="font-medium">{{ $t("java") }}</td>
-                      <td>{{ $t("java_17") }}</td>
+                      <td class="font-medium">
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.espacioDisco.label"
+                          )
+                        }}
+                      </td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.espacioDisco.minimo"
+                          )
+                        }}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">
+                        {{ $t("jugar.requisitosSistema.detalles.java.label") }}
+                      </td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.java.version")
+                        }}
+                      </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
 
-              <div v-show="activeTab === 'recomendados'" class="tab-content">
+              <div
+                v-show="activeTab === 'recomendados'"
+                :class="[
+                  'tab-content',
+                  { active: activeTab === 'recomendados' },
+                ]"
+              >
                 <table>
                   <thead>
                     <tr>
-                      <th class="w-1-3">{{ $t("requisito") }}</th>
-                      <th>{{ $t("especificacion") }}</th>
+                      <th class="w-1-3">
+                        {{ $t("jugar.requisitosSistema.requisito") }}
+                      </th>
+                      <th>
+                        {{ $t("jugar.requisitosSistema.especificacion") }}
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("sistema_operativo") }}
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.sistemaOperativo.label"
+                          )
+                        }}
                       </td>
-                      <td>{{ $t("os_minimo") }}</td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.sistemaOperativo.minimo"
+                          )
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("procesador") }}
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.procesador.label"
+                          )
+                        }}
                       </td>
-                      <td>{{ $t("cpu_recomendado") }}</td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.procesador.recomendado"
+                          )
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("memoria_ram") }}
+                        {{ $t("jugar.requisitosSistema.detalles.ram.label") }}
                       </td>
-                      <td>{{ $t("ram_8gb") }}</td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.ram.recomendado")
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("tarjeta_grafica") }}
+                        {{ $t("jugar.requisitosSistema.detalles.gpu.label") }}
                       </td>
-                      <td>{{ $t("gpu_recomendada") }}</td>
-                    </tr>
-                    <tr>
-                      <td class="font-medium">{{ $t("opengl") }}</td>
-                      <td>{{ $t("opengl_4_4") }}</td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.gpu.recomendado")
+                        }}
+                      </td>
                     </tr>
                     <tr>
                       <td class="font-medium">
-                        {{ $t("espacio_disco") }}
+                        {{
+                          $t("jugar.requisitosSistema.detalles.opengl.label")
+                        }}
                       </td>
-                      <td>{{ $t("ssd_suficiente") }}</td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.opengl.minimo")
+                        }}
+                      </td>
                     </tr>
                     <tr>
-                      <td class="font-medium">{{ $t("java") }}</td>
-                      <td>{{ $t("java_17") }}</td>
+                      <td class="font-medium">
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.espacioDisco.label"
+                          )
+                        }}
+                      </td>
+                      <td>
+                        {{
+                          $t(
+                            "jugar.requisitosSistema.detalles.espacioDisco.recomendado"
+                          )
+                        }}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">
+                        {{ $t("jugar.requisitosSistema.detalles.java.label") }}
+                      </td>
+                      <td>
+                        {{
+                          $t("jugar.requisitosSistema.detalles.java.version")
+                        }}
+                      </td>
                     </tr>
                   </tbody>
                 </table>
