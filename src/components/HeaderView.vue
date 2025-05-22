@@ -1,34 +1,13 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
-import { watchEffect } from "vue";
-
 const route = useRoute();
-
-// Función para cargar y descargar CSS dinámicamente
-function useDynamicHeaderStyle() {
-  let styleEl = null;
-  watchEffect(() => {
-    // Elimina el anterior si existe
-    if (styleEl) {
-      document.head.removeChild(styleEl);
-      styleEl = null;
-    }
-    // Decide qué CSS cargar según el meta
-    const cssFile = route.meta.headerStyle
-      ? "/src/components/css/HeaderStyle2.css"
-      : "/src/components/css/HeaderStyle.css";
-    styleEl = document.createElement("link");
-    styleEl.rel = "stylesheet";
-    styleEl.href = cssFile;
-    document.head.appendChild(styleEl);
-  });
-}
-
-useDynamicHeaderStyle();
 </script>
 <!-- Header Section -->
 <template>
-  <header id="main-header">
+  <header
+    :class="['main-header', { 'header-alt': route.meta.headerStyle }]"
+    id="main-header"
+  >
     <div class="container">
       <RouterLink to="/" class="logo">{{
         $t("headerFooter.logo_bilbao_skp")
