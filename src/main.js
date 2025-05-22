@@ -4,8 +4,6 @@ import router from "./router";
 import i18n from "./i18n";
 import App from "./App.vue";
 import "aos/dist/aos.css";
-import "./components/css/HeaderStyle.css";
-import "./components/css/HeaderStyle2.css";
 import AOS from "aos";
 
 AOS.init();

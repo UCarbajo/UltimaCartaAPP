@@ -2,18 +2,25 @@
 import { RouterLink, useRoute } from "vue-router";
 import { watchEffect } from "vue";
 
-export function useDynamicHeaderStyle() {
-  const route = useRoute();
+const route = useRoute();
 
-  watchEffect(async () => {
-    // opcional: limpia estilos previos inyectados por import dinámico
-    // (Vite no elimina automáticamente el <style> anterior, habría que llevar un tracking si quieres hacerlo)
-
-    if (route.meta.headerStyle) {
-      await import(/* @vite-ignore */ "../components/css/HeaderStyle2.css");
-    } else {
-      await import(/* @vite-ignore */ "../components/css/HeaderStyle.css");
+// Función para cargar y descargar CSS dinámicamente
+function useDynamicHeaderStyle() {
+  let styleEl = null;
+  watchEffect(() => {
+    // Elimina el anterior si existe
+    if (styleEl) {
+      document.head.removeChild(styleEl);
+      styleEl = null;
     }
+    // Decide qué CSS cargar según el meta
+    const cssFile = route.meta.headerStyle
+      ? "/css/HeaderStyle2.css"
+      : "/css/HeaderStyle.css";
+    styleEl = document.createElement("link");
+    styleEl.rel = "stylesheet";
+    styleEl.href = cssFile;
+    document.head.appendChild(styleEl);
   });
 }
 
