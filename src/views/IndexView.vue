@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+</script>
+
 <template>
   <!-- Hero Section with Background Video -->
   <section class="hero">
@@ -10,7 +14,7 @@
       <h1>{{ $t("index.ultimaCarta") }}</h1>
       <p>{{ $t("index.descripcion") }}</p>
       <button class="btn-primary">
-        <a href="jugar">{{ $t("headerFooter.menu.jugar") }}</a>
+        <RouterLink to="/jugar">{{ $t("headerFooter.menu.jugar") }}</RouterLink>
       </button>
     </div>
   </section>

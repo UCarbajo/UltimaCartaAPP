@@ -340,10 +340,10 @@
     "instrucciones": {
       "titulo": "Instrucciones",
       "pasos": [
-        "Descarga el archivo Java comprimido (.zip o .rar)",
-        "Extrae su contenido con un programa como WinRAR o 7-Zip",
-        "Asegúrate de tener Java instalado",
-        "Haz doble clic en el archivo .jar para iniciar el juego"
+        "1. Descarga el archivo Java comprimido (.zip o .rar)",
+        "2. Extrae su contenido con un programa como WinRAR o 7-Zip",
+        "3. Asegúrate de tener Java instalado",
+        "4. Haz doble clic en el archivo .jar para iniciar el juego"
       ]
     },
     "requisitosSistema": {
@@ -351,6 +351,8 @@
       "verifica": "Verifica que tu equipo cumple con los requisitos mínimos antes de descargar",
       "minimos": "Requisitos Mínimos",
       "recomendados": "Requisitos Recomendados",
+      "requisito": "Requisito",
+      "especificacion": "Especificación",
       "detalles": {
         "sistemaOperativo": {
           "label": "Sistema operativo",
@@ -378,7 +380,7 @@
         "espacioDisco": {
           "label": "Espacio en disco",
           "minimo": "1 GB + espacio adicional para mundos/mods",
-          "ssd": "SSD con espacio suficiente"
+          "recomendado": "SSD con espacio suficiente"
         },
         "java": {
           "label": "Java",
@@ -667,7 +669,7 @@
     "verRankingNacional": "Ver Ranking Nacional"
   },
   "loginPage": {
-    "iniciarSesion": "Iniciar Sesión",
+    "iniciarSesion": "Inicio de sesión",
     "accesoUsuario": "Acceso de Usuario",
     "titulo": "Iniciar Sesión en tu Cuenta",
     "olvidaste": "¿Olvidaste tu contraseña?",
