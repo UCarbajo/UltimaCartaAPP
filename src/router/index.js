@@ -7,6 +7,7 @@ import RegistroEleccionView from "../views/RegistroEleccionView.vue";
 import RegistroIndividualView from "../views/RegistroIndividualView.vue";
 import RegistroCentroView from "../views/RegistroCentroView.vue";
 import InicioSesionView from "../views/InicioSesionView.vue";
+import NuevoView from "../views/NuevoView.vue";
 const routes = [
   {
     path: "/",
@@ -23,7 +24,7 @@ const routes = [
   {
     path: "/contacto",
     name: "contacto",
-    component: ContactoView,
+    component: NuevoView,
     meta: { headerStyle: true },
   },
   {
