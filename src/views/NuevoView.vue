@@ -1,16 +1,89 @@
 <template>
-  <div class="nuevo-view">
-    <h1>Página Nueva</h1>
-    <p>Esta es una página de ejemplo con un diseño simple.</p>
-    <button @click="goHome">Volver al inicio</button>
-  </div>
+  <section class="contact-content">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h2>
+            {{ $t("contacto.subtitulo") }}
+          </h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">{{ $t("contacto.form.nombre") }}</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">{{ $t("contacto.form.correo") }}</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">{{ $t("contacto.form.telefono") }}</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="subject">{{ $t("contacto.form.asunto") }}</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">{{ $t("contacto.form.mensaje") }}</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              {{ $t("contacto.form.botonEnviar") }}
+            </button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h2>
+            {{ $t("contacto.informacion.titulo") }}
+          </h2>
+          <div class="info-item">
+            <h3>
+              {{ $t("contacto.informacion.direccion.label") }}
+            </h3>
+            <p>
+              {{ $t("contacto.informacion.direccion.detalle") }}
+            </p>
+          </div>
+          <div class="info-item">
+            <h3>
+              {{ $t("contacto.informacion.telefono.label") }}
+            </h3>
+            <p>
+              {{ $t("contacto.informacion.telefono.detalle") }}
+            </p>
+          </div>
+          <div class="info-item">
+            <h3>
+              {{ $t("contacto.informacion.email.label") }}
+            </h3>
+            <p>
+              {{ $t("contacto.informacion.email.detalle") }}
+            </p>
+          </div>
+          <div class="info-item">
+            <h3>
+              {{ $t("contacto.informacion.horario.label") }}
+            </h3>
+            <p>
+              {{ $t("contacto.informacion.horario.detalle") }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router'
-const router = useRouter()
+import { useRouter } from "vue-router";
+const router = useRouter();
 function goHome() {
-  router.push('/')
+  router.push("/");
 }
 </script>
 
@@ -21,7 +94,7 @@ function goHome() {
   padding: 2rem;
   background: #f9f9f9;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   text-align: center;
 }
 h1 {

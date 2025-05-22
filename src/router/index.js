@@ -24,7 +24,7 @@ const routes = [
   {
     path: "/contacto",
     name: "contacto",
-    component: NuevoView,
+    component: ContactoView,
     meta: { headerStyle: true },
   },
   {
