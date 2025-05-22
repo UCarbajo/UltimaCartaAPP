@@ -4,26 +4,6 @@ import { watchEffect } from "vue";
 
 const route = useRoute();
 
-// Función para cargar y descargar CSS dinámicamente
-function useDynamicHeaderStyle() {
-  let styleEl = null;
-  watchEffect(() => {
-    // Elimina el anterior si existe
-    if (styleEl) {
-      document.head.removeChild(styleEl);
-      styleEl = null;
-    }
-    // Decide qué CSS cargar según el meta
-    const cssFile = route.meta.headerStyle
-      ? "/css/HeaderStyle2.css"
-      : "/css/HeaderStyle.css";
-    styleEl = document.createElement("link");
-    styleEl.rel = "stylesheet";
-    styleEl.href = cssFile;
-    document.head.appendChild(styleEl);
-  });
-}
-
 // Scroll Header Effect
 window.addEventListener("scroll", function () {
   const header = document.getElementById("main-header");
