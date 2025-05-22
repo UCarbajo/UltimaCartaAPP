@@ -1,13 +1,27 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
-const route = useRoute();
+import { watchEffect } from "vue";
+
+export function useDynamicHeaderStyle() {
+  const route = useRoute();
+
+  watchEffect(async () => {
+    // opcional: limpia estilos previos inyectados por import dinámico
+    // (Vite no elimina automáticamente el <style> anterior, habría que llevar un tracking si quieres hacerlo)
+
+    if (route.meta.headerStyle) {
+      await import(/* @vite-ignore */ "../components/css/HeaderStyle2.css");
+    } else {
+      await import(/* @vite-ignore */ "../components/css/HeaderStyle.css");
+    }
+  });
+}
+
+useDynamicHeaderStyle();
 </script>
 <!-- Header Section -->
 <template>
-  <header
-    :class="['main-header', { 'header-alt': route.meta.headerStyle }]"
-    id="main-header"
-  >
+  <header id="main-header">
     <div class="container">
       <RouterLink to="/" class="logo">{{
         $t("headerFooter.logo_bilbao_skp")
@@ -41,7 +55,9 @@ const route = useRoute();
               }}</RouterLink>
             </li>
             <li>
-              <a href="contacto">{{ $t("headerFooter.menu.contacto") }}</a>
+              <RouterLink to="/contacto">{{
+                $t("headerFooter.menu.contacto")
+              }}</RouterLink>
             </li>
           </ul>
         </nav>
