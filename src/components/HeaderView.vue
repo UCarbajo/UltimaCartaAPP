@@ -15,8 +15,8 @@ function useDynamicHeaderStyle() {
     }
     // Decide qué CSS cargar según el meta
     const cssFile = route.meta.headerStyle
-      ? "/src/components/css/HeaderStyle2.css"
-      : "/src/components/css/HeaderStyle.css";
+      ? "/css/HeaderStyle2.css"
+      : "/css/HeaderStyle.css";
     styleEl = document.createElement("link");
     styleEl.rel = "stylesheet";
     styleEl.href = cssFile;
@@ -62,7 +62,9 @@ useDynamicHeaderStyle();
               }}</RouterLink>
             </li>
             <li>
-              <a href="contacto">{{ $t("headerFooter.menu.contacto") }}</a>
+              <RouterLink to="/contacto">{{
+                $t("headerFooter.menu.contacto")
+              }}</RouterLink>
             </li>
           </ul>
         </nav>

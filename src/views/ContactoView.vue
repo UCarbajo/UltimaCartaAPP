@@ -80,6 +80,11 @@
     </section>
   </main>
 </template>
+
+<script setup>
+// Si necesitas lógica, puedes añadirla aquí
+</script>
+
 <style scoped>
 .container {
   width: 100%;
